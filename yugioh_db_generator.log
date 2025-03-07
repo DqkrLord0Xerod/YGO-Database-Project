@@ -189,3 +189,45 @@
 2025-03-07 10:03:38,132 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
 2025-03-07 10:03:38,146 - WARNING -  * Debugger is active!
 2025-03-07 10:03:38,148 - INFO -  * Debugger PIN: 805-930-223
+2025-03-07 10:06:54,579 - INFO - 192.168.12.176 - - [07/Mar/2025 10:06:54] "GET / HTTP/1.1" 200 -
+2025-03-07 10:06:57,285 - INFO - 192.168.12.176 - - [07/Mar/2025 10:06:57] "GET / HTTP/1.1" 200 -
+2025-03-07 10:07:40,253 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-07 10:07:40,275 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.176:5000
+2025-03-07 10:07:40,276 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 10:07:40,277 - INFO -  * Restarting with stat
+2025-03-07 10:07:40,559 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-07 10:07:40,573 - WARNING -  * Debugger is active!
+2025-03-07 10:07:40,574 - INFO -  * Debugger PIN: 805-930-223
+2025-03-07 10:07:49,577 - INFO - 192.168.12.176 - - [07/Mar/2025 10:07:49] "GET / HTTP/1.1" 200 -
+2025-03-07 10:07:56,297 - INFO - 127.0.0.1 - - [07/Mar/2025 10:07:56] "GET / HTTP/1.1" 200 -
+2025-03-07 10:08:21,528 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:21] "GET / HTTP/1.1" 200 -
+2025-03-07 10:08:31,914 - INFO - 192.168.12.176 - - [07/Mar/2025 10:08:31] "GET / HTTP/1.1" 200 -
+2025-03-07 10:08:41,664 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:41] "GET /analyzer HTTP/1.1" 200 -
+2025-03-07 10:08:41,800 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-07 10:08:43,695 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:43] "GET /static/js/components/DeckVisualization.jsx HTTP/1.1" 200 -
+2025-03-07 10:08:43,989 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:43] "[33mGET /static/js/components/CardDetails.jsx HTTP/1.1[0m" 404 -
+2025-03-07 10:08:43,991 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:43] "GET /static/js/components/AnalysisResults.jsx HTTP/1.1" 200 -
+2025-03-07 10:08:43,991 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:43] "GET /static/js/components/DeckAnalyzer.jsx HTTP/1.1" 200 -
+2025-03-07 10:08:44,007 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:44] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-03-07 10:08:44,096 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 10:08:46,295 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:46] "GET / HTTP/1.1" 200 -
+2025-03-07 10:08:55,717 - INFO - 127.0.0.1 - - [07/Mar/2025 10:08:55] "GET /results HTTP/1.1" 200 -
+2025-03-07 10:09:06,255 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Flamberge%20Dragon
+2025-03-07 10:09:06,532 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Diabellstar
+2025-03-07 10:09:07,363 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Poplar
+2025-03-07 10:09:07,979 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Divine%20Temple%20of%20the%20Snake-eyes
+2025-03-07 10:09:09,049 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Triple%20Tactics%20Talents
+2025-03-07 10:09:09,572 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Doomed%20Dragon
+2025-03-07 10:09:10,664 - ERROR - Error analyzing deck: Traceback (most recent call last):
+  File "C:\Users\Xerod\Desktop\YGO Database Project\yugioh_db_generator\web\web_ui.py", line 221, in analyze_deck_api
+    analysis_results = analyzer.analyze_deck(all_cards, card_data)
+  File "C:\Users\Xerod\Desktop\YGO Database Project\yugioh_db_generator\ai\deck_analyzer.py", line 140, in analyze_deck
+    archetypes = self._identify_archetypes(deck_list, card_data)
+AttributeError: 'DeckStrengthAnalyzer' object has no attribute '_identify_archetypes'
+
+2025-03-07 10:09:10,665 - INFO - 127.0.0.1 - - [07/Mar/2025 10:09:10] "[35m[1mPOST /api/analyze-deck HTTP/1.1[0m" 500 -
+2025-03-07 10:11:31,609 - INFO -  * Detected change in 'C:\\Users\\Xerod\\Desktop\\YGO Database Project\\yugioh_db_generator\\web\\web_ui.py', reloading
+2025-03-07 10:11:31,687 - INFO -  * Restarting with stat

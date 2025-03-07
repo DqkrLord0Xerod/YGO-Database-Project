@@ -165,7 +165,30 @@ class DeckStrengthAnalyzer:
         
         return analysis
     
-    def _analyze_card_types(self, deck_list: List[str], card_data: Dict[str, Dict[str, Any]]) -> Dict[str, int]:
+    # Add this method to the DeckStrengthAnalyzer class in deck_analyzer.py
+
+def _identify_archetypes(self, deck_list):
+    """Identify archetypes in the deck."""
+    archetypes = {
+        "Snake-eye": 0,
+        "Crystal Beast": 0,
+        "Fiendsmith": 0,
+        "World Legacy": 0,
+        "Allure Queen": 0,
+        "Vaylantz": 0
+    }
+    
+    # Count archetype occurrences
+    for card_name in deck_list:
+        for archetype in archetypes:
+            if archetype in card_name:
+                archetypes[archetype] += 1
+    
+    # Filter out archetypes with 0 counts
+    return {k: v for k, v in archetypes.items() if v > 0}
+
+
+def _analyze_card_types(self, deck_list: List[str], card_data: Dict[str, Dict[str, Any]]) -> Dict[str, int]:
         """Analyze the distribution of card types in the deck."""
         counts = {
             "monsters": 0,

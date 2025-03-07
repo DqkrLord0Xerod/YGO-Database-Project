@@ -12,6 +12,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, sen
 # Add parent directory to path to import the package
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from yugioh_db_generator.api.card_api import YGOPRODeckAPI
 from yugioh_db_generator.core.card_database import CardDatabaseGenerator
 from yugioh_db_generator.utils.logging_utils import setup_logging
 
@@ -218,7 +219,7 @@ def analyze_deck_api():
         analyzer = DeckStrengthAnalyzer()
         
         # Analyze the deck
-        analysis_results = analyzer.analyze_deck(all_cards, card_data)
+        analysis_results = analyzer.analyze_deck(deck_list, card_data)
         
         # Return analysis results as JSON
         return jsonify({
