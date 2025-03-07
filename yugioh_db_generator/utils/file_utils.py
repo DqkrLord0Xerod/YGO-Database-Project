@@ -10,18 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 def read_deck_list(filename: str) -> List[str]:
-    """Read a deck list from a file.
-    
-    Supports the following formats:
-    - Plain text (one card per line)
-    - YDK format (exported from YGOPro)
-    
-    Args:
-        filename: Path to the deck list file
-        
-    Returns:
-        List of card names
-    """
+    """Read a deck list from a file."""
     if not os.path.exists(filename):
         logger.error(f"File not found: {filename}")
         return []
@@ -30,11 +19,11 @@ def read_deck_list(filename: str) -> List[str]:
         with open(filename, 'r', encoding='utf-8') as f:
             content = f.read()
             
-        # Determine the file format
-        if content.startswith('#'):
-            return _parse_ydk_file(filename)
+        # Better format detection
+        if content.strip().startswith('#main') or content.strip().startswith('#created by'):
+            return _parse_ydk_file(filename)  # Only for actual YDK files
         else:
-            return _parse_text_file(filename)
+            return _parse_text_file(filename)  # Plain text with possible comments
             
     except Exception as e:
         logger.error(f"Error reading deck list: {e}")
