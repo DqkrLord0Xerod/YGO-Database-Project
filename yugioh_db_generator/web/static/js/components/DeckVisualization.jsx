@@ -3,10 +3,10 @@ const DeckVisualization = ({ deckData, cardData }) => {
     const getCardTypeColors = (cardName) => {
         const card = cardData[cardName] || {};
         const cardType = (card.type || '').toLowerCase();
-        
+
         // Default colors
         let colors = { borderColor: '#444', bgColor: '#ddd' };
-        
+
         // Determine card type and set colors
         if (cardType.includes('monster')) {
             if (cardType.includes('normal')) {
@@ -33,7 +33,7 @@ const DeckVisualization = ({ deckData, cardData }) => {
         } else if (cardType.includes('trap')) {
             colors = { borderColor: '#8B008B', bgColor: '#FF69B4' };
         }
-        
+
         return colors;
     };
 
@@ -105,8 +105,8 @@ const DeckVisualization = ({ deckData, cardData }) => {
                 <div className="deck-section-header">
                     <h3>Main Deck: {deckData.mainDeck.length}</h3>
                     <span>
-                        Monster: {cardTypes.monsters} | 
-                        Spell: {cardTypes.spells} | 
+                        Monster: {cardTypes.monsters} |
+                        Spell: {cardTypes.spells} |
                         Trap: {cardTypes.traps}
                     </span>
                 </div>
@@ -114,20 +114,29 @@ const DeckVisualization = ({ deckData, cardData }) => {
                     {Object.entries(mainDeckCounts).map(([cardName, count]) => {
                         const colors = getCardTypeColors(cardName);
                         return (
-                            <div 
+                            <div
                                 key={cardName}
                                 className="card-container"
-                                style={{ 
+                                style={{
                                     borderLeft: `5px solid ${colors.borderColor}`,
                                     backgroundColor: colors.bgColor
                                 }}
                                 title={cardName}
+                                onClick={() => setSelectedCard(cardName)}
                             >
-                                <div className="p-2">
-                                    <div className="fw-bold text-truncate">{cardName}</div>
-                                    <div className="small text-muted">
-                                        {cardData[cardName]?.type || 'Unknown'}
-                                    </div>
+                                <div className="card-image-container">
+                                    <img
+                                        src={`https://images.ygoprodeck.com/images/cards_small/${cardData[cardName]?.id || cardName.replace(/[^a-zA-Z0-9]/g, '')}.jpg`}
+                                        alt={cardName}
+                                        className="card-image"
+                                        onError={(e) => {
+                                            e.target.onerror = null;
+                                            e.target.src = "https://via.placeholder.com/90x130?text=No+Image";
+                                        }}
+                                    />
+                                </div>
+                                <div className="card-info">
+                                    <div className="fw-bold text-truncate small">{cardName}</div>
                                 </div>
                                 {count > 1 && <div className="card-count">{count}</div>}
                             </div>
@@ -142,9 +151,9 @@ const DeckVisualization = ({ deckData, cardData }) => {
                     <div className="deck-section-header">
                         <h3>Extra Deck: {deckData.extraDeck.length}</h3>
                         <span>
-                            Fusion: {cardTypes.fusion} | 
-                            Synchro: {cardTypes.synchro} | 
-                            Xyz: {cardTypes.xyz} | 
+                            Fusion: {cardTypes.fusion} |
+                            Synchro: {cardTypes.synchro} |
+                            Xyz: {cardTypes.xyz} |
                             Link: {cardTypes.link}
                         </span>
                     </div>
@@ -152,10 +161,10 @@ const DeckVisualization = ({ deckData, cardData }) => {
                         {Object.entries(extraDeckCounts).map(([cardName, count]) => {
                             const colors = getCardTypeColors(cardName);
                             return (
-                                <div 
+                                <div
                                     key={cardName}
                                     className="card-container"
-                                    style={{ 
+                                    style={{
                                         borderLeft: `5px solid ${colors.borderColor}`,
                                         backgroundColor: colors.bgColor
                                     }}
