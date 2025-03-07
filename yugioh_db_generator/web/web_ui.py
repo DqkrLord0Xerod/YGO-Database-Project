@@ -164,7 +164,126 @@ def generate():
         flash(f'Unexpected error: {str(e)}', 'error')
         return redirect(url_for('index'))
 
+# yugioh_db_generator/web/web_ui.py
 
+# Add this new route
+@app.route('/analyzer')
+def analyzer():
+    """Render the deck analyzer page."""
+    return render_template('analyzer.html')
+
+# Add API endpoints for deck analysis
+@app.route('/api/analyze-deck', methods=['POST'])
+def analyze_deck_api():
+    """API endpoint for analyzing a deck."""
+    try:
+        # Get deck list from request
+        deck_list = request.json.get('deckList', '')
+        
+        # Parse the deck list
+        main_deck, extra_deck = [], []
+        current_section = 'main'
+        
+        for line in deck_list.strip().split('\n'):
+            line = line.strip()
+            if not line or line.startswith('#'):
+                if 'extra' in line.lower():
+                    current_section = 'extra'
+                continue
+            
+            if current_section == 'main':
+                main_deck.append(line)
+            else:
+                extra_deck.append(line)
+        
+        # Use the DeckStrengthAnalyzer to analyze the deck
+        from yugioh_db_generator.ai.deck_analyzer import DeckStrengthAnalyzer
+        
+        # Get card data
+        from yugioh_db_generator.api.card_api import YGOPRODeckAPI
+        api_client = YGOPRODeckAPI(cache_dir=cache_dir, use_cache=True)
+        
+        # Fetch card data for the deck
+        card_data = {}
+        all_cards = main_deck + extra_deck
+        for card_name in all_cards:
+            try:
+                card_info = api_client.get_card_by_name(card_name)
+                if card_info:
+                    card_data[card_name] = card_info
+            except Exception as e:
+                logger.error(f"Error fetching card data for {card_name}: {e}")
+        
+        # Initialize the analyzer
+        analyzer = DeckStrengthAnalyzer()
+        
+        # Analyze the deck
+        analysis_results = analyzer.analyze_deck(all_cards, card_data)
+        
+        # Return analysis results as JSON
+        return jsonify({
+            'success': True,
+            'analysis': analysis_results,
+            'card_data': card_data
+        })
+    
+    except Exception as e:
+        logger.error(f"Error analyzing deck: {traceback.format_exc()}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+@app.route('/api/card-image/<card_name>')
+def card_image(card_name):
+    """API endpoint for getting a card image URL."""
+    try:
+        # This would normally fetch from an API, but for demo we'll return a placeholder
+        return jsonify({
+            'success': True,
+            'image_url': f"https://ygoprodeck.com/pics/{card_name.replace(' ', '%20')}.jpg"
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+        
+@app.route('/api/card-details/<card_name>')
+def card_details(card_name):
+    """API endpoint for getting detailed card information."""
+    try:
+        # Create API client
+        api_client = YGOPRODeckAPI(cache_dir=cache_dir, use_cache=True)
+        
+        # Get card information
+        card_info = api_client.get_card_by_name(card_name)
+        
+        if card_info:
+            # Get rulings for the card
+            from yugioh_db_generator.ai.rule_generator import AIRuleGenerator
+            
+            rule_generator = AIRuleGenerator()
+            rulings = rule_generator.generate_rulings(card_name, card_info)
+            
+            return jsonify({
+                'success': True,
+                'card': card_info,
+                'rulings': rulings
+            })
+        else:
+            return jsonify({
+                'success': False,
+                'error': f"Card not found: {card_name}"
+            }), 404
+    except Exception as e:
+        logger.error(f"Error getting card details: {traceback.format_exc()}")
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+    
+    
 @app.route('/progress')
 def progress():
     """Return the current progress as JSON."""

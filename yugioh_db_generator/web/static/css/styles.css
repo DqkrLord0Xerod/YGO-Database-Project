@@ -1,0 +1,101 @@
+/* yugioh_db_generator/web/static/css/styles.css */
+/* General Styles */
+body {
+    background-color: #f5f5f5;
+}
+
+.modal-backdrop {
+    opacity: 0.5;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 140px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.card-count {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.deck-section {
+    margin-bottom: 30px;
+}
+
+.deck-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tab-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.score-card {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.score-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stat-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}

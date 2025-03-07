@@ -170,3 +170,22 @@
 2025-03-07 09:27:20,484 - INFO - Corrected: 'Rciela Sinister Soul of the White Forest' -> 'Rciela, Sinister Soul of the White Forest'
 2025-03-07 09:27:20,486 - INFO - Database saved to: card_database.md
 2025-03-07 09:27:20,486 - INFO - Database generation completed successfully.
+2025-03-07 09:47:20,065 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-07 09:47:20,138 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.176:5000
+2025-03-07 09:47:20,138 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 09:47:20,140 - INFO -  * Restarting with stat
+2025-03-07 09:47:20,469 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-07 09:47:20,481 - WARNING -  * Debugger is active!
+2025-03-07 09:47:20,487 - INFO -  * Debugger PIN: 805-930-223
+2025-03-07 09:47:38,434 - INFO - 192.168.12.176 - - [07/Mar/2025 09:47:38] "GET / HTTP/1.1" 200 -
+2025-03-07 09:47:39,161 - INFO - 192.168.12.176 - - [07/Mar/2025 09:47:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 09:47:42,625 - INFO - 127.0.0.1 - - [07/Mar/2025 09:47:42] "GET / HTTP/1.1" 200 -
+2025-03-07 09:47:43,004 - INFO - 127.0.0.1 - - [07/Mar/2025 09:47:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 10:03:37,736 - INFO -  * Detected change in 'C:\\Users\\Xerod\\Desktop\\YGO Database Project\\yugioh_db_generator\\web\\web_ui.py', reloading
+2025-03-07 10:03:37,807 - INFO -  * Restarting with stat
+2025-03-07 10:03:38,132 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-07 10:03:38,146 - WARNING -  * Debugger is active!
+2025-03-07 10:03:38,148 - INFO -  * Debugger PIN: 805-930-223
