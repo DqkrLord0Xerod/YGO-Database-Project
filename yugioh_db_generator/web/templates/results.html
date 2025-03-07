@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Generation Results - Yu-Gi-Oh! Card Database Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            padding-bottom: 50px;
+        }
+        .header {
+            background: linear-gradient(135deg, #2b2b2b 0%, #1a1a1a 100%);
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-bottom: 4px solid #e8b923;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card-header {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            color: white;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #3498db;
+            border-color: #2980b9;
+        }
+        .btn-success {
+            background-color: #2ecc71;
+            border-color: #27ae60;
+        }
+        .ygo-icon {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .result-table th {
+            background-color: #f8f9fa;
+        }
+        .format-badge {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        .format-markdown {
+            background-color: #3498db;
+        }
+        .format-json {
+            background-color: #9b59b6;
+        }
+        .format-csv {
+            background-color: #e67e22;
+        }
+        .format-text {
+            background-color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <img src="https://cdn.pixabay.com/photo/2019/08/19/11/44/cards-4416783_1280.png" alt="Cards Icon" class="ygo-icon">
+                <span class="logo">Yu-Gi-Oh! Card Database Generator</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}" role="alert">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <!-- Results Card -->
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-check-circle"></i> Database Generation Results
+            </div>
+            <div class="card-body">
+                {% if outputs %}
+                    <div class="alert alert-success">
+                        <i class="fas fa-check-circle"></i> Your database was generated successfully!
+                    </div>
+                    
+                    <h4>Recent Generations</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover result-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Format</th>
+                                    <th>Cards</th>
+                                    <th>Corrections</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for output in outputs|reverse %}
+                                <tr>
+                                    <td>{{ output.id }}</td>
+                                    <td>
+                                        <span class="badge format-badge format-{{ output.output_format }}">
+                                            {{ output.output_format }}
+                                        </span>
+                                    </td>
+                                    <td>{{ output.card_count }}</td>
+                                    <td>{{ output.corrections_count }}</td>
+                                    <td>
+                                        <a href="{{ url_for('download', output_id=output.id, file_type='database') }}" class="btn btn-sm btn-primary">
+                                            <i class="fas fa-download"></i> Database
+                                        </a>
+                                        <a href="{{ url_for('download', output_id=output.id, file_type='corrections') }}" class="btn btn-sm btn-secondary">
+                                            <i class="fas fa-list"></i> Corrections
+                                        </a>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="alert alert-info mt-3">
+                        <i class="fas fa-info-circle"></i> Files are temporary and will be deleted after generating more databases.
+                    </div>
+                {% else %}
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i> No database generations found.
+                    </div>
+                {% endif %}
+                
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                    <a href="{{ url_for('index') }}" class="btn btn-primary">
+                        <i class="fas fa-plus-circle"></i> Generate Another Database
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- How to Use Card -->
+        <div class="card mt-4">
+            <div class="card-header">
+                <i class="fas fa-question-circle"></i> How to Use Your Generated Files
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Database File</h5>
+                        <p>Contains detailed information about each card in your list:</p>
+                        <ul>
+                            <li><strong>Markdown (.md)</strong>: Human-readable format with headers and formatting</li>
+                            <li><strong>JSON (.json)</strong>: Machine-readable format for data processing</li>
+                            <li><strong>CSV (.csv)</strong>: Spreadsheet format for Excel or Google Sheets</li>
+                            <li><strong>Text (.txt)</strong>: Simple plain text format</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Corrections File</h5>
+                        <p>Contains a list of card names that were corrected during the generation process:</p>
+                        <ul>
+                            <li>Useful for updating your original deck list with correct card names</li>
+                            <li>Helps identify typos or spelling variations in your list</li>
+                            <li>Format: "Original Name -> Corrected Name"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
