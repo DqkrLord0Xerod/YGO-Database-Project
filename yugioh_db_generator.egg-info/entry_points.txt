@@ -1,0 +1,2 @@
+[console_scripts]
+yugioh-db-generator = yugioh_db_generator.__main__:main

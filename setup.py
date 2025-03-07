@@ -21,7 +21,6 @@ setup(
     python_requires=">=3.7",
     install_requires=[
         "requests>=2.28.0",
-        "difflib3>=0.5.0",
         "tqdm>=4.65.0",
         "colorama>=0.4.6",
         "python-levenshtein>=0.21.0",
