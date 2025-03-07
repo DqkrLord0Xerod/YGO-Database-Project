@@ -1,0 +1,100 @@
+{
+    "Dark Magician": [
+        "If this card is Tributed for a Tribute Summon, it is not 'sent from the field to the Graveyard'.",
+        "If this card is Tributed for 'Dedication through Light and Darkness', 'Dark Magic Attack' cannot be activated that turn.",
+        "This card can be Special Summoned with 'Ancient Rules'."
+    ],
+    "Blue-Eyes White Dragon": [
+        "Effects that respecify ATK/DEF values, like 'Shield & Sword', don't count as increasing or decreasing the ATK/DEF.",
+        "This card can be Special Summoned with 'Ancient Rules'.",
+        "Cards like 'Burst Stream of Destruction' that require 'Blue-Eyes White Dragon' specifically require the original card, not substitutes like 'Blue-Eyes Alternative White Dragon'."
+    ],
+    "Pot of Greed": [
+        "You cannot activate this card if there are fewer than 2 cards in your Deck.",
+        "Both cards are drawn simultaneously, not one at a time."
+    ],
+    "Ash Blossom & Joyous Spring": [
+        "This card can only negate effects that would add a card from the Deck to the hand, send a card from the Deck to the GY, or Special Summon from the Deck.",
+        "You can activate this card's effect during either player's turn.",
+        "This card's effect cannot be activated in response to a cost, only to an effect."
+    ],
+    "Called by the Grave": [
+        "If you target a monster with this card, and the monster is face-up in an Extra Monster Zone, that monster's effect is negated until the end of the next turn.",
+        "If you target a monster with this card, and that monster is Special Summoned from the GY, this card continues to negate that monster's effects.",
+        "This card only negates activated effects of the targeted monster, not continuous effects."
+    ],
+    "Infinite Impermanence": [
+        "If this card is activated from your hand, it only negates the effects of monsters in the same column until the end of the turn.",
+        "If this card is Set, it must remain Set for a turn before it can be activated.",
+        "The column effect applies even if the targeted monster is no longer on the field when this card resolves."
+    ],
+    "Mystical Space Typhoon": [
+        "This card does not negate the effects of cards it destroys.",
+        "If you target a card that is chained and leaves the field, this card's effect resolves without effect."
+    ],
+    "Mirror Force": [
+        "This card cannot be activated unless your opponent declares an attack with a monster.",
+        "This card does not target any cards. It will destroy all Attack Position monsters your opponent controls at resolution.",
+        "If your opponent's monster has protection from destruction effects, it will not be destroyed by this card."
+    ],
+    "Monster Reborn": [
+        "You can target any monster in either player's GY.",
+        "If a monster was not properly summoned first (like a Fusion or Synchro Monster), it cannot be Special Summoned by this card.",
+        "The monster is Special Summoned in the same battle position it was in when it was sent to the GY."
+    ],
+    "Exodia the Forbidden One": [
+        "You must have all 5 pieces of Exodia in your hand to win the Duel.",
+        "The victory condition is a condition, not an effect, and cannot be negated.",
+        "If any piece of Exodia is removed from your hand, you will not win the Duel until you have all 5 pieces in your hand again."
+    ],
+    "Raigeki": [
+        "This card destroys all monsters your opponent controls at the time of resolution.",
+        "This card does not target any cards.",
+        "If your opponent controls no monsters, you can still activate this card, but it will resolve with no effect."
+    ],
+    "Solemn Judgment": [
+        "This card can negate the activation of a Spell/Trap Card or monster effect, or negate a Normal/Special Summon.",
+        "You pay half your LP at activation, not resolution.",
+        "This card can negate the Special Summon of multiple monsters, as long as they are being Summoned simultaneously."
+    ],
+    "Harpie's Feather Duster": [
+        "This card destroys all Spell and Trap Cards your opponent controls at the time of resolution.",
+        "This card does not target any cards.",
+        "If your opponent controls no Spell/Trap Cards, you can still activate this card, but it will resolve with no effect."
+    ],
+    "Snake-eye Flamberge Dragon": [
+        "You can activate the effect to add a 'Snake-eye' card even if this card was Special Summoned by a method other than its own effect.",
+        "The effect to destroy cards is limited to face-up cards your opponent controls.",
+        "Both effects of this card may be used once per turn each, not just one or the other."
+    ],
+    "Crystal Beast Sapphire Pegasus": [
+        "You can only place a 'Crystal Beast' monster from your hand, Deck, or GY to your Spell & Trap Zone as a Continuous Spell Card by this card's effect.",
+        "If you have no empty Spell & Trap Zones, you cannot activate this effect.",
+        "When this card is destroyed while it is a monster, you can place it in your Spell & Trap Zone as a Continuous Spell Card instead of sending it to the GY."
+    ],
+    "Allure Queen LV5": [
+        "This card can equip a Level 5 or lower monster to itself by its effect.",
+        "While this card is equipped with a monster, the equipped monster's effects are negated.",
+        "During your Standby Phase, if this card is equipped with a Level 5 monster, you can send this card to the GY to Special Summon 'Allure Queen LV7' from your hand or Deck."
+    ],
+    "World Legacy - \"World Chalice\"": [
+        "You can only use each effect of 'World Legacy - \"World Chalice\"' once per turn.",
+        "The effect to add a 'World Chalice' monster from your Deck to your hand activates when this card is sent from the field to the GY.",
+        "The effect to Special Summon this card from your GY can be activated during either player's turn."
+    ],
+    "Link Spider": [
+        "You can only Special Summon a Normal Monster to this card's linked zone.",
+        "You can only use this effect once per turn.",
+        "The Normal Monster Special Summoned by this effect must be Level 4 or lower."
+    ],
+    "Accesscode Talker": [
+        "This card gains ATK equal to the combined Link Ratings of Link Monsters used as material for its Link Summon x 1000.",
+        "You can banish a Link Monster from your GY to destroy cards on the field up to the Link Rating of the banished monster.",
+        "Your opponent cannot activate cards or effects in response to this card's effect activation."
+    ],
+    "Zeus": [
+        "You can detach 2 materials from this card; send all other cards on the field to the GY.",
+        "This is a Quick Effect that can be activated during either player's turn.",
+        "This effect sends cards to the GY, it does not destroy them."
+    ]
+}

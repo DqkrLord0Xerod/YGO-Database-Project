@@ -11,11 +11,12 @@ from typing import Dict, List, Any, Optional
 class CardFormatter:
     """Formatter for Yu-Gi-Oh! card data."""
     
-    def __init__(self, format_type: str = "markdown"):
+    def __init__(self, format_type: str = "markdown", konami_rulings_db: Optional[str] = None):
         """Initialize the formatter.
         
         Args:
             format_type: Output format ('markdown', 'json', 'csv', or 'text')
+            konami_rulings_db: Path to a JSON file containing official Konami rulings
         """
         self.logger = logging.getLogger(__name__)
         self.format_type = format_type.lower()
@@ -32,6 +33,16 @@ class CardFormatter:
         if self.format_type not in self.formatters:
             self.logger.warning(f"Unsupported format type: {format_type}. Defaulting to markdown.")
             self.format_type = "markdown"
+            
+        # Load Konami official rulings if provided
+        self.official_rulings = {}
+        if konami_rulings_db:
+            try:
+                with open(konami_rulings_db, 'r', encoding='utf-8') as f:
+                    self.official_rulings = json.load(f)
+                self.logger.info(f"Loaded {len(self.official_rulings)} official rulings from {konami_rulings_db}")
+            except Exception as e:
+                self.logger.warning(f"Error loading official rulings: {e}")
     
     def format_card(self, card_data: Optional[Dict[str, Any]], original_name: str) -> Any:
         """Format a card according to the selected format type.
@@ -109,8 +120,8 @@ class CardFormatter:
         limitation = card_data.get('limitation', self._get_limitation(card_data))
         card_text = card_data.get('desc', 'No description available')
         
-        # Generate rulings
-        rulings = self._generate_rulings(card_name, card_text, property_val)
+        # Get official rulings if available
+        rulings = self._get_official_rulings(card_name)
         
         # Build the formatted card section
         md = f"## {card_name}\n"
@@ -127,10 +138,13 @@ class CardFormatter:
         md += f"* **Limitation Status**: {limitation}\n\n"
         md += "Card Text\n"
         md += f"{card_text}\n\n"
-        md += "Card Rulings & Interactions\n"
         
-        for ruling in rulings:
-            md += f"* {ruling}\n"
+        if rulings:
+            md += "Official Card Rulings\n"
+            for ruling in rulings:
+                md += f"* {ruling}\n"
+        else:
+            md += "No official rulings available for this card. For questions about this card's interactions, please consult the official rulebook or a tournament judge.\n"
             
         return md
     
@@ -152,6 +166,9 @@ class CardFormatter:
             
         property_val = self._determine_property(card_data, full_type)
         
+        # Get official rulings
+        rulings = self._get_official_rulings(original_name)
+        
         # Build basic info
         result = {
             "name": original_name,
@@ -161,7 +178,7 @@ class CardFormatter:
             "property": property_val,
             "text": card_data.get('desc', ''),
             "limitation": card_data.get('limitation', self._get_limitation(card_data)),
-            "rulings": self._generate_rulings(original_name, card_data.get('desc', ''), property_val)
+            "officialRulings": rulings if rulings else []
         }
         
         # Add monster-specific fields
@@ -194,13 +211,18 @@ class CardFormatter:
             
         property_val = self._determine_property(card_data, full_type)
         
+        # Get official rulings
+        rulings = self._get_official_rulings(original_name)
+        rulings_text = "; ".join(rulings) if rulings else "No official rulings available"
+        
         # Build CSV row
         row = {
             "Name": original_name,
             "Type": card_type,
             "Property": property_val,
             "Description": card_data.get('desc', ''),
-            "Limitation": card_data.get('limitation', self._get_limitation(card_data))
+            "Limitation": card_data.get('limitation', self._get_limitation(card_data)),
+            "OfficialRulings": rulings_text
         }
         
         # Add monster-specific fields
@@ -246,6 +268,9 @@ class CardFormatter:
         property_val = self._determine_property(card_data, full_type)
         card_text = card_data.get('desc', 'No description available')
         
+        # Get official rulings
+        rulings = self._get_official_rulings(card_name)
+        
         text = f"{card_name}\n"
         text += f"Type: {card_type} | Property: {property_val}\n"
         
@@ -260,6 +285,13 @@ class CardFormatter:
         text += f"Limitation: {card_data.get('limitation', self._get_limitation(card_data))}\n\n"
         text += f"Text:\n{card_text}\n"
         
+        if rulings:
+            text += "\nOfficial Rulings:\n"
+            for i, ruling in enumerate(rulings, 1):
+                text += f"{i}. {ruling}\n"
+        else:
+            text += "\nNo official rulings available for this card.\n"
+        
         return text
     
     def _format_not_found(self, card_name: str) -> Any:
@@ -272,8 +304,6 @@ class CardFormatter:
             md += "* **Limitation Status**: Unknown\n\n"
             md += "Card Text\n"
             md += "Card information not found in database. Please check the official Yu-Gi-Oh! database for accurate information.\n\n"
-            md += "Card Rulings & Interactions\n"
-            md += "* Card information not found. Please consult the official rulebook or a tournament judge for rulings.\n"
             return md
             
         elif self.format_type == "json":
@@ -283,7 +313,7 @@ class CardFormatter:
                 "property": "Unknown",
                 "text": "Card information not found in database.",
                 "limitation": "Unknown",
-                "rulings": ["Card information not found. Please consult the official rulebook."]
+                "officialRulings": []
             }
             
         elif self.format_type == "csv":
@@ -297,7 +327,8 @@ class CardFormatter:
                 "Level/Rank/Link": "N/A",
                 "Monster Type": "N/A",
                 "ATK": "N/A",
-                "DEF": "N/A"
+                "DEF": "N/A",
+                "OfficialRulings": "No rulings available"
             }
             
         elif self.format_type == "text":
@@ -386,58 +417,17 @@ class CardFormatter:
         
         return status_map.get(ban_tcg, "Unlimited")
     
-    def _generate_rulings(self, card_name: str, card_text: str, property_val: str) -> List[str]:
-        """Generate appropriate rulings based on card text analysis."""
-        rulings = []
+    def _get_official_rulings(self, card_name: str) -> List[str]:
+        """Get official rulings for a card from Konami's database."""
+        # Check if we have official rulings for this card
+        rulings = self.official_rulings.get(card_name, [])
         
-        # Skip for empty text
-        if not card_text:
-            return ["Always verify card rulings with the official rulebook or a tournament judge."]
-        
-        # Look for once per turn effects
-        if "once per turn" in card_text.lower():
-            rulings.append(f"The \"once per turn\" effect(s) of {card_name} reset if the card leaves the field and returns.")
-        
-        # Look for targeting effects
-        if "target" in card_text.lower():
-            rulings.append(f"Effects that prevent targeting will prevent {card_name} from selecting those cards as targets.")
-        
-        # Look for destruction effects
-        if "destroy" in card_text.lower():
-            rulings.append(f"Cards with destruction protection cannot be destroyed by {card_name}'s effect.")
-        
-        # Look for optional effects
-        if any(x in card_text.lower() for x in ["you can", "you may"]):
-            rulings.append(f"The effect of {card_name} that states \"you can\" is optional and can be activated at the player's discretion.")
-        
-        # Look for negation effects
-        if "negate" in card_text.lower():
-            rulings.append(f"When {card_name} negates an effect, it only negates the effect and not the activation, unless otherwise specified.")
-            
-        # Look for summoning conditions
-        if "cannot be normal summoned/set" in card_text.lower():
-            rulings.append(f"{card_name} must be Special Summoned by its own procedure and cannot be Special Summoned by other effects unless specified.")
-            
-        # Look for common archetypes in the text
-        archetypes = ["Snake-eye", "Snake-Eyes", "Crystal Beast", "Fiendsmith", "Allure Queen", "World Legacy", "World Chalice"]
-        for archetype in archetypes:
-            if archetype.lower() in card_text.lower():
-                rulings.append(f"This card specifically supports the \"{archetype}\" archetype and works well with other \"{archetype}\" cards.")
-                break
-        
-        # Add property-specific rulings
-        if property_val == "Quick-Play":
-            rulings.append("This Quick-Play Spell can be activated from the hand during your opponent's turn if it was set on your field in a previous turn.")
-        elif property_val == "Counter":
-            rulings.append("This Counter Trap can be chained to the activation of other effects at Spell Speed 3.")
-        elif property_val == "Link":
-            rulings.append("The Link Arrows on this card determine which zones it points to for card effects that reference linked zones.")
-        elif property_val == "Pendulum":
-            rulings.append("When this card is destroyed while in a Monster Zone, you can place it in your Pendulum Zone instead of sending it to the GY.")
-        
-        # If we couldn't generate any specific rulings, add generic ones
+        # Try alternative name formats if no rulings found
         if not rulings:
-            rulings.append(f"Always verify the timing and activation conditions of {card_name} with the current official rulebook.")
-            rulings.append(f"For tournament play, consult with a judge for specific interactions involving {card_name}.")
+            # Try with different capitalization
+            for name in self.official_rulings:
+                if name.lower() == card_name.lower():
+                    rulings = self.official_rulings[name]
+                    break
         
         return rulings

@@ -1,0 +1,172 @@
+2025-03-07 09:27:12,662 - INFO - Reading deck list from: example-decklist.txt
+2025-03-07 09:27:12,663 - INFO - Processing 66 cards...
+2025-03-07 09:27:13,542 - INFO - Loaded 13575 cards into search engine
+2025-03-07 09:27:13,543 - INFO - Generating database for 66 cards
+2025-03-07 09:27:13,543 - INFO - Processing cards using 8 threads
+2025-03-07 09:27:13,544 - INFO - Processing card 1/66: Snake-eye Flamberge Dragon
+2025-03-07 09:27:13,544 - INFO - Processing card 2/66: Snake-eye Diabellstar
+2025-03-07 09:27:13,546 - INFO - Processing card 3/66: Snake-eye Ash
+2025-03-07 09:27:13,547 - INFO - Processing card 4/66: Snake-eye Oak
+2025-03-07 09:27:13,547 - INFO - Processing card 5/66: Snake-eye Poplar
+2025-03-07 09:27:13,547 - INFO - Processing card 6/66: Snake-eye Birch
+2025-03-07 09:27:13,547 - INFO - Processing card 7/66: Fabled Lurrie
+2025-03-07 09:27:13,547 - INFO - Processing card 8/66: Lacrima the Crimson Tear
+2025-03-07 09:27:13,930 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Flamberge%20Dragon
+2025-03-07 09:27:14,036 - INFO - Found exact match for: Snake-eye Oak
+2025-03-07 09:27:14,036 - INFO - Processing card 9/66: Fiendsmith Engraver
+2025-03-07 09:27:14,039 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Diabellstar
+2025-03-07 09:27:14,078 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Poplar
+2025-03-07 09:27:14,079 - INFO - Found exact match for: Fabled Lurrie
+2025-03-07 09:27:14,080 - INFO - Processing card 10/66: Fiendsmith in Paradise
+2025-03-07 09:27:14,137 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Lacrima%20the%20Crimson%20Tear
+2025-03-07 09:27:14,172 - INFO - Found exact match for: Snake-eye Birch
+2025-03-07 09:27:14,173 - INFO - Processing card 11/66: Fiendsmith Kyrie
+2025-03-07 09:27:14,204 - INFO - Found exact match for: Snake-eye Ash
+2025-03-07 09:27:14,205 - INFO - Processing card 12/66: Rainbow Dragon
+2025-03-07 09:27:14,267 - INFO - Found exact match for: Fiendsmith Engraver
+2025-03-07 09:27:14,268 - INFO - Processing card 13/66: Crystal Beast Rainbow Dragon
+2025-03-07 09:27:14,525 - INFO - Found exact match for: Fiendsmith in Paradise
+2025-03-07 09:27:14,526 - INFO - Processing card 14/66: Crystal Beast Sapphire Pegasus
+2025-03-07 09:27:14,635 - INFO - Found exact match for: Rainbow Dragon
+2025-03-07 09:27:14,636 - INFO - Found exact match for: Fiendsmith Kyrie
+2025-03-07 09:27:14,636 - INFO - Processing card 15/66: Crystal Beast Cobalt Eagle
+2025-03-07 09:27:14,638 - INFO - Processing card 16/66: Crystal Beast Ruby Carbuncle
+2025-03-07 09:27:14,679 - INFO - Found exact match for: Crystal Beast Rainbow Dragon
+2025-03-07 09:27:14,679 - INFO - Processing card 17/66: Magicians' Soul
+2025-03-07 09:27:14,790 - INFO - Found exact match for: Crystal Beast Sapphire Pegasus
+2025-03-07 09:27:14,790 - INFO - Processing card 18/66: Illusion of Chaos
+2025-03-07 09:27:15,024 - INFO - Fuzzy API match for 'Snake-eye Flamberge Dragon': 'Snake-Eyes Flamberge Dragon' (similarity: 0.98)
+2025-03-07 09:27:15,024 - INFO - Corrected: 'Snake-eye Flamberge Dragon' -> 'Snake-Eyes Flamberge Dragon'
+2025-03-07 09:27:15,025 - INFO - Processing card 19/66: Chaos Allure Queen
+2025-03-07 09:27:15,035 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magicians%2527%20Soul
+2025-03-07 09:27:15,107 - INFO - Found exact match for: Crystal Beast Ruby Carbuncle
+2025-03-07 09:27:15,108 - INFO - Processing card 20/66: Allure Queen LV3
+2025-03-07 09:27:15,117 - INFO - Fuzzy API match for 'Lacrima the Crimson Tear': 'Lacrima the Crimson Tears' (similarity: 0.97)
+2025-03-07 09:27:15,118 - INFO - Corrected: 'Lacrima the Crimson Tear' -> 'Lacrima the Crimson Tears'
+2025-03-07 09:27:15,118 - INFO - Processing card 21/66: Allure Queen LV5
+2025-03-07 09:27:15,122 - INFO - Found exact match for: Illusion of Chaos
+2025-03-07 09:27:15,122 - INFO - Processing card 22/66: World Legacy - "World Chalice"
+2025-03-07 09:27:15,138 - INFO - Found exact match for: Crystal Beast Cobalt Eagle
+2025-03-07 09:27:15,138 - INFO - Processing card 23/66: Chosen by the World Chalice
+2025-03-07 09:27:15,141 - INFO - Fuzzy API match for 'Snake-eye Poplar': 'Snake-Eyes Poplar' (similarity: 0.96)
+2025-03-07 09:27:15,142 - INFO - Corrected: 'Snake-eye Poplar' -> 'Snake-Eyes Poplar'
+2025-03-07 09:27:15,143 - INFO - Processing card 24/66: Dragon Buster Destruction Sword
+2025-03-07 09:27:15,487 - INFO - Fuzzy API match for 'Snake-eye Diabellstar': 'Snake-Eyes Diabellstar' (similarity: 0.97)
+2025-03-07 09:27:15,487 - INFO - Corrected: 'Snake-eye Diabellstar' -> 'Snake-Eyes Diabellstar'
+2025-03-07 09:27:15,489 - INFO - Processing card 25/66: World Legacy - "World Shield"
+2025-03-07 09:27:15,498 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Chalice%2522
+2025-03-07 09:27:15,510 - INFO - Found exact match for: Chosen by the World Chalice
+2025-03-07 09:27:15,510 - INFO - Processing card 26/66: Dramatic Snake-eye Chase
+2025-03-07 09:27:15,527 - INFO - Found exact match for: Allure Queen LV5
+2025-03-07 09:27:15,528 - INFO - Processing card 27/66: Divine Temple of the Snake-eyes
+2025-03-07 09:27:15,542 - INFO - Found exact match for: Chaos Allure Queen
+2025-03-07 09:27:15,544 - INFO - Processing card 28/66: One for One
+2025-03-07 09:27:15,552 - INFO - Found exact match for: Dragon Buster Destruction Sword
+2025-03-07 09:27:15,552 - INFO - Processing card 29/66: Fiendsmith Tract
+2025-03-07 09:27:15,568 - INFO - Found exact match for: Allure Queen LV3
+2025-03-07 09:27:15,568 - INFO - Processing card 30/66: Rainbow Bridge
+2025-03-07 09:27:15,821 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Shield%2522
+2025-03-07 09:27:15,828 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Tract
+2025-03-07 09:27:15,829 - INFO - Found exact match for: Dramatic Snake-eye Chase
+2025-03-07 09:27:15,830 - INFO - Processing card 31/66: Crystal Bond
+2025-03-07 09:27:15,838 - INFO - Found exact match for: One for One
+2025-03-07 09:27:15,838 - INFO - Processing card 32/66: Golden Rule
+2025-03-07 09:27:15,864 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Divine%20Temple%20of%20the%20Snake-eyes
+2025-03-07 09:27:16,071 - INFO - Found exact match for: Rainbow Bridge
+2025-03-07 09:27:16,071 - INFO - Processing card 33/66: Awakening of the Crystal Ultimates
+2025-03-07 09:27:16,241 - INFO - Found exact match for: Golden Rule
+2025-03-07 09:27:16,243 - INFO - Processing card 34/66: Rainbow Bridge of the Heart
+2025-03-07 09:27:16,259 - INFO - Fuzzy API match for 'Magicians' Soul': 'Magicians' Souls' (similarity: 0.96)
+2025-03-07 09:27:16,260 - INFO - Corrected: 'Magicians' Soul' -> 'Magicians' Souls'
+2025-03-07 09:27:16,261 - INFO - Processing card 35/66: Foolish Burial Goods
+2025-03-07 09:27:16,263 - INFO - Found exact match for: Crystal Bond
+2025-03-07 09:27:16,264 - INFO - Processing card 36/66: Called by the Grave
+2025-03-07 09:27:16,497 - INFO - Found exact match for: Awakening of the Crystal Ultimates
+2025-03-07 09:27:16,498 - INFO - Processing card 37/66: Triple Tactics Thrust
+2025-03-07 09:27:16,529 - INFO - Found exact match for: Rainbow Bridge of the Heart
+2025-03-07 09:27:16,536 - INFO - Processing card 38/66: Triple Tactics Talents
+2025-03-07 09:27:16,632 - INFO - Found exact match for: Called by the Grave
+2025-03-07 09:27:16,633 - INFO - Processing card 39/66: Vaylantz World - Shinra Bansho
+2025-03-07 09:27:16,802 - INFO - Found exact match for: Foolish Burial Goods
+2025-03-07 09:27:16,802 - INFO - Processing card 40/66: Vaylantz World - Konig Wissen
+2025-03-07 09:27:16,988 - INFO - Fuzzy API match for 'Fiendsmith Tract': 'Fiendsmith's Tract' (similarity: 0.93)
+2025-03-07 09:27:16,989 - INFO - Corrected: 'Fiendsmith Tract' -> 'Fiendsmith's Tract'
+2025-03-07 09:27:16,989 - INFO - Processing card 41/66: World Legacy Succession
+2025-03-07 09:27:16,998 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Triple%20Tactics%20Talents
+2025-03-07 09:27:17,000 - INFO - Found exact match for: Triple Tactics Thrust
+2025-03-07 09:27:17,000 - INFO - Processing card 42/66: Rainbow Bridge of Salvation
+2025-03-07 09:27:17,102 - INFO - Found exact match for: Vaylantz World - Shinra Bansho
+2025-03-07 09:27:17,102 - INFO - Processing card 43/66: Harpies' Feather Storm
+2025-03-07 09:27:17,132 - INFO - Found exact match for: Vaylantz World - Konig Wissen
+2025-03-07 09:27:17,132 - INFO - Processing card 44/66: Infinite Impermanence
+2025-03-07 09:27:17,165 - INFO - Fuzzy API match for 'Divine Temple of the Snake-eyes': 'Divine Temple of the Snake-Eye' (similarity: 0.98)
+2025-03-07 09:27:17,166 - INFO - Corrected: 'Divine Temple of the Snake-eyes' -> 'Divine Temple of the Snake-Eye'
+2025-03-07 09:27:17,166 - INFO - Processing card 45/66: Protector Whelp of the Destruction Swordsman
+2025-03-07 09:27:17,338 - INFO - Found exact match for: Rainbow Bridge of Salvation
+2025-03-07 09:27:17,338 - INFO - Processing card 46/66: Magisitus Chorozo
+2025-03-07 09:27:17,347 - INFO - Found exact match for: World Legacy Succession
+2025-03-07 09:27:17,347 - INFO - Processing card 47/66: Necroquip Princess
+2025-03-07 09:27:17,362 - INFO - Fuzzy API match for 'World Legacy - "World Chalice"': 'World Legacy - "World Chalice"' (similarity: 1.00)
+2025-03-07 09:27:17,362 - INFO - Processing card 48/66: Snake-eye Doomed Dragon
+2025-03-07 09:27:17,395 - INFO - Fuzzy API match for 'World Legacy - "World Shield"': 'World Legacy - "World Shield"' (similarity: 1.00)
+2025-03-07 09:27:17,396 - INFO - Processing card 49/66: Gallant Granite
+2025-03-07 09:27:17,466 - INFO - Found exact match for: Infinite Impermanence
+2025-03-07 09:27:17,467 - INFO - Processing card 50/66: Infernal Flame Banshee
+2025-03-07 09:27:17,474 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Harpies%2527%20Feather%20Storm
+2025-03-07 09:27:17,528 - INFO - Found exact match for: Protector Whelp of the Destruction Swordsman
+2025-03-07 09:27:17,529 - INFO - Processing card 51/66: D/D/D Wave High King Caesar
+2025-03-07 09:27:17,690 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Doomed%20Dragon
+2025-03-07 09:27:17,703 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magisitus%20Chorozo
+2025-03-07 09:27:17,704 - INFO - Found exact match for: Necroquip Princess
+2025-03-07 09:27:17,704 - INFO - Processing card 52/66: Moon of the Closed Heaven
+2025-03-07 09:27:17,732 - INFO - Found exact match for: Gallant Granite
+2025-03-07 09:27:17,733 - INFO - Processing card 53/66: Mekk-Knight Crusadia Avramax
+2025-03-07 09:27:17,778 - INFO - Found exact match for: Infernal Flame Banshee
+2025-03-07 09:27:17,778 - INFO - Processing card 54/66: I:P Masquerena
+2025-03-07 09:27:17,863 - INFO - Found exact match for: D/D/D Wave High King Caesar
+2025-03-07 09:27:17,863 - INFO - Processing card 55/66: Relinquished Anima
+2025-03-07 09:27:17,977 - INFO - Found exact match for: I:P Masquerena
+2025-03-07 09:27:17,978 - INFO - Processing card 56/66: Knightmare Gryphon
+2025-03-07 09:27:18,063 - INFO - Found exact match for: Mekk-Knight Crusadia Avramax
+2025-03-07 09:27:18,063 - INFO - Processing card 57/66: A Bao A Qu, The Lightless Shadow
+2025-03-07 09:27:18,118 - INFO - Found exact match for: Moon of the Closed Heaven
+2025-03-07 09:27:18,118 - INFO - Processing card 58/66: Cross-Sheep
+2025-03-07 09:27:18,322 - INFO - Found exact match for: Relinquished Anima
+2025-03-07 09:27:18,323 - INFO - Processing card 59/66: Fiendsmith Requiem
+2025-03-07 09:27:18,352 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=Magisitus
+2025-03-07 09:27:18,552 - INFO - Found exact match for: Knightmare Gryphon
+2025-03-07 09:27:18,552 - INFO - Processing card 60/66: Fiendsmith Agnumday
+2025-03-07 09:27:18,633 - INFO - Found exact match for: Cross-Sheep
+2025-03-07 09:27:18,634 - INFO - Processing card 61/66: Fiendsmith Sequence
+2025-03-07 09:27:18,664 - INFO - Found exact match for: A Bao A Qu, The Lightless Shadow
+2025-03-07 09:27:18,665 - INFO - Processing card 62/66: Fiendsmith Desirae
+2025-03-07 09:27:18,797 - INFO - Found exact match for: Fiendsmith Requiem
+2025-03-07 09:27:18,797 - INFO - Processing card 63/66: Ib the World Chalice Justiciar
+2025-03-07 09:27:18,814 - INFO - Fuzzy API match for 'Triple Tactics Talents': 'Triple Tactics Talent' (similarity: 0.97)
+2025-03-07 09:27:18,815 - INFO - Corrected: 'Triple Tactics Talents' -> 'Triple Tactics Talent'
+2025-03-07 09:27:18,815 - INFO - Processing card 64/66: Rciela Sinister Soul of the White Forest
+2025-03-07 09:27:18,825 - INFO - Fuzzy API match for 'Snake-eye Doomed Dragon': 'Snake-Eyes Doomed Dragon' (similarity: 0.97)
+2025-03-07 09:27:18,825 - INFO - Corrected: 'Snake-eye Doomed Dragon' -> 'Snake-Eyes Doomed Dragon'
+2025-03-07 09:27:18,826 - INFO - Processing card 65/66: Power Tool Dragon
+2025-03-07 09:27:18,938 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Agnumday
+2025-03-07 09:27:19,052 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Desirae
+2025-03-07 09:27:19,077 - INFO - Fuzzy API match for 'Magisitus Chorozo': 'Magistus Chorozo' (similarity: 0.96)
+2025-03-07 09:27:19,077 - INFO - Corrected: 'Magisitus Chorozo' -> 'Magistus Chorozo'
+2025-03-07 09:27:19,077 - INFO - Processing card 66/66: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-07 09:27:19,085 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Sequence
+2025-03-07 09:27:19,155 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Rciela%20Sinister%20Soul%20of%20the%20White%20Forest
+2025-03-07 09:27:19,175 - INFO - Found exact match for: Power Tool Dragon
+2025-03-07 09:27:19,176 - INFO - Found exact match for: Ib the World Chalice Justiciar
+2025-03-07 09:27:19,406 - INFO - Fuzzy API match for 'Fiendsmith Agnumday': 'Fiendsmith's Agnumday' (similarity: 0.94)
+2025-03-07 09:27:19,407 - INFO - Corrected: 'Fiendsmith Agnumday' -> 'Fiendsmith's Agnumday'
+2025-03-07 09:27:19,422 - INFO - Found exact match for: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-07 09:27:19,508 - INFO - Fuzzy API match for 'Fiendsmith Sequence': 'Fiendsmith's Sequence' (similarity: 0.94)
+2025-03-07 09:27:19,510 - INFO - Fuzzy API match for 'Harpies' Feather Storm': 'Harpie's Feather Storm' (similarity: 0.94)
+2025-03-07 09:27:19,511 - INFO - Corrected: 'Harpies' Feather Storm' -> 'Harpie's Feather Storm'
+2025-03-07 09:27:19,510 - INFO - Corrected: 'Fiendsmith Sequence' -> 'Fiendsmith's Sequence'
+2025-03-07 09:27:19,522 - INFO - Fuzzy API match for 'Fiendsmith Desirae': 'Fiendsmith's Desirae' (similarity: 0.93)
+2025-03-07 09:27:19,523 - INFO - Corrected: 'Fiendsmith Desirae' -> 'Fiendsmith's Desirae'
+2025-03-07 09:27:20,484 - INFO - Fuzzy API match for 'Rciela Sinister Soul of the White Forest': 'Rciela, Sinister Soul of the White Forest' (similarity: 0.98)
+2025-03-07 09:27:20,484 - INFO - Corrected: 'Rciela Sinister Soul of the White Forest' -> 'Rciela, Sinister Soul of the White Forest'
+2025-03-07 09:27:20,486 - INFO - Database saved to: card_database.md
+2025-03-07 09:27:20,486 - INFO - Database generation completed successfully.

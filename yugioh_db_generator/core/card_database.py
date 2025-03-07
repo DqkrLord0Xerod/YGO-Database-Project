@@ -21,7 +21,8 @@ class CardDatabaseGenerator:
         max_workers: int = 4,
         cache_dir: str = None,
         use_cache: bool = True,
-        similarity_threshold: float = 0.7
+        similarity_threshold: float = 0.7, 
+        rulings_db_path: str = "konami_rulings.json"
     ):
         """Initialize the database generator.
         
@@ -49,8 +50,10 @@ class CardDatabaseGenerator:
         )
         
         # Initialize formatter
-        self.formatter = CardFormatter(format_type=output_format)
-        
+        self.formatter = CardFormatter(
+            format_type=output_format,
+            konami_rulings_db=rulings_db_path  # Pass the rulings database path
+        )        
         # Store processed cards
         self.processed_cards = {}
     
