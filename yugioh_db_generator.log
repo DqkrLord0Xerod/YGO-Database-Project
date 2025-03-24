@@ -231,3 +231,1281 @@ AttributeError: 'DeckStrengthAnalyzer' object has no attribute '_identify_archet
 2025-03-07 10:09:10,665 - INFO - 127.0.0.1 - - [07/Mar/2025 10:09:10] "[35m[1mPOST /api/analyze-deck HTTP/1.1[0m" 500 -
 2025-03-07 10:11:31,609 - INFO -  * Detected change in 'C:\\Users\\Xerod\\Desktop\\YGO Database Project\\yugioh_db_generator\\web\\web_ui.py', reloading
 2025-03-07 10:11:31,687 - INFO -  * Restarting with stat
+2025-03-07 18:28:30,781 - INFO - No input file provided. Using example deck list.
+2025-03-07 18:28:30,781 - INFO - Processing 66 cards...
+2025-03-07 18:28:32,170 - INFO - Loaded 13575 cards into search engine
+2025-03-07 18:28:32,170 - WARNING - Error loading official rulings: [Errno 2] No such file or directory: 'konami_rulings.json'
+2025-03-07 18:28:32,170 - INFO - Generating database for 66 cards
+2025-03-07 18:28:32,170 - INFO - Processing cards using 8 threads
+2025-03-07 18:28:32,171 - INFO - Processing card 1/66: Snake-eye Flamberge Dragon
+2025-03-07 18:28:32,172 - INFO - Processing card 2/66: Snake-eye Diabellstar
+2025-03-07 18:28:32,173 - INFO - Processing card 3/66: Snake-eye Ash
+2025-03-07 18:28:32,174 - INFO - Processing card 4/66: Snake-eye Oak
+2025-03-07 18:28:32,174 - INFO - Processing card 5/66: Snake-eye Poplar
+2025-03-07 18:28:32,175 - INFO - Processing card 6/66: Snake-eye Birch
+2025-03-07 18:28:32,175 - INFO - Processing card 7/66: Fabled Lurrie
+2025-03-07 18:28:32,175 - INFO - Processing card 8/66: Lacrima the Crimson Tear
+2025-03-07 18:28:32,667 - INFO - Found exact match for: Snake-eye Ash
+2025-03-07 18:28:32,667 - INFO - Processing card 9/66: Fiendsmith Engraver
+2025-03-07 18:28:32,677 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Poplar
+2025-03-07 18:28:32,720 - INFO - Found exact match for: Snake-eye Oak
+2025-03-07 18:28:32,722 - INFO - Processing card 10/66: Fiendsmith in Paradise
+2025-03-07 18:28:32,726 - INFO - Found exact match for: Fabled Lurrie
+2025-03-07 18:28:32,727 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Diabellstar
+2025-03-07 18:28:32,727 - INFO - Processing card 11/66: Fiendsmith Kyrie
+2025-03-07 18:28:32,731 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Flamberge%20Dragon
+2025-03-07 18:28:32,732 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Lacrima%20the%20Crimson%20Tear
+2025-03-07 18:28:32,754 - INFO - Found exact match for: Snake-eye Birch
+2025-03-07 18:28:32,755 - INFO - Processing card 12/66: Rainbow Dragon
+2025-03-07 18:28:33,018 - INFO - Found exact match for: Fiendsmith Engraver
+2025-03-07 18:28:33,019 - INFO - Processing card 13/66: Crystal Beast Rainbow Dragon
+2025-03-07 18:28:33,180 - INFO - Found exact match for: Fiendsmith in Paradise
+2025-03-07 18:28:33,180 - INFO - Processing card 14/66: Crystal Beast Sapphire Pegasus
+2025-03-07 18:28:33,217 - INFO - Found exact match for: Rainbow Dragon
+2025-03-07 18:28:33,217 - INFO - Processing card 15/66: Crystal Beast Cobalt Eagle
+2025-03-07 18:28:33,385 - INFO - Found exact match for: Fiendsmith Kyrie
+2025-03-07 18:28:33,386 - INFO - Processing card 16/66: Crystal Beast Ruby Carbuncle
+2025-03-07 18:28:33,585 - INFO - Found exact match for: Crystal Beast Rainbow Dragon
+2025-03-07 18:28:33,586 - INFO - Processing card 17/66: Magicians' Soul
+2025-03-07 18:28:33,676 - INFO - Found exact match for: Crystal Beast Sapphire Pegasus
+2025-03-07 18:28:33,677 - INFO - Processing card 18/66: Illusion of Chaos
+2025-03-07 18:28:33,819 - INFO - Found exact match for: Crystal Beast Cobalt Eagle
+2025-03-07 18:28:33,820 - INFO - Processing card 19/66: Chaos Allure Queen
+2025-03-07 18:28:33,869 - INFO - Found exact match for: Crystal Beast Ruby Carbuncle
+2025-03-07 18:28:33,870 - INFO - Processing card 20/66: Allure Queen LV3
+2025-03-07 18:28:33,936 - INFO - Fuzzy API match for 'Lacrima the Crimson Tear': 'Lacrima the Crimson Tears' (similarity: 0.97)
+2025-03-07 18:28:33,936 - INFO - Corrected: 'Lacrima the Crimson Tear' -> 'Lacrima the Crimson Tears'
+2025-03-07 18:28:33,937 - INFO - Processing card 21/66: Allure Queen LV5
+2025-03-07 18:28:34,116 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magicians%2527%20Soul
+2025-03-07 18:28:34,208 - INFO - Found exact match for: Illusion of Chaos
+2025-03-07 18:28:34,208 - INFO - Processing card 22/66: World Legacy - "World Chalice"
+2025-03-07 18:28:34,281 - INFO - Found exact match for: Allure Queen LV5
+2025-03-07 18:28:34,282 - INFO - Processing card 23/66: Chosen by the World Chalice
+2025-03-07 18:28:34,440 - INFO - Found exact match for: Chaos Allure Queen
+2025-03-07 18:28:34,441 - INFO - Processing card 24/66: Dragon Buster Destruction Sword
+2025-03-07 18:28:34,504 - INFO - Fuzzy API match for 'Snake-eye Flamberge Dragon': 'Snake-Eyes Flamberge Dragon' (similarity: 0.98)
+2025-03-07 18:28:34,505 - INFO - Corrected: 'Snake-eye Flamberge Dragon' -> 'Snake-Eyes Flamberge Dragon'
+2025-03-07 18:28:34,505 - INFO - Processing card 25/66: World Legacy - "World Shield"
+2025-03-07 18:28:34,549 - INFO - Found exact match for: Allure Queen LV3
+2025-03-07 18:28:34,549 - INFO - Processing card 26/66: Dramatic Snake-eye Chase
+2025-03-07 18:28:34,604 - INFO - Fuzzy API match for 'Snake-eye Diabellstar': 'Snake-Eyes Diabellstar' (similarity: 0.97)
+2025-03-07 18:28:34,604 - INFO - Corrected: 'Snake-eye Diabellstar' -> 'Snake-Eyes Diabellstar'
+2025-03-07 18:28:34,604 - INFO - Processing card 27/66: Divine Temple of the Snake-eyes
+2025-03-07 18:28:34,626 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Chalice%2522
+2025-03-07 18:28:34,809 - INFO - Fuzzy API match for 'Snake-eye Poplar': 'Snake-Eyes Poplar' (similarity: 0.96)
+2025-03-07 18:28:34,809 - INFO - Corrected: 'Snake-eye Poplar' -> 'Snake-Eyes Poplar'
+2025-03-07 18:28:34,810 - INFO - Processing card 28/66: One for One
+2025-03-07 18:28:34,960 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Shield%2522
+2025-03-07 18:28:35,056 - INFO - Found exact match for: Dragon Buster Destruction Sword
+2025-03-07 18:28:35,056 - INFO - Processing card 29/66: Fiendsmith Tract
+2025-03-07 18:28:35,064 - INFO - Found exact match for: Chosen by the World Chalice
+2025-03-07 18:28:35,067 - INFO - Processing card 30/66: Rainbow Bridge
+2025-03-07 18:28:35,188 - INFO - Found exact match for: Dramatic Snake-eye Chase
+2025-03-07 18:28:35,188 - INFO - Processing card 31/66: Crystal Bond
+2025-03-07 18:28:35,222 - INFO - Found exact match for: One for One
+2025-03-07 18:28:35,223 - INFO - Processing card 32/66: Golden Rule
+2025-03-07 18:28:35,290 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Divine%20Temple%20of%20the%20Snake-eyes
+2025-03-07 18:28:35,685 - INFO - Found exact match for: Rainbow Bridge
+2025-03-07 18:28:35,686 - INFO - Processing card 33/66: Awakening of the Crystal Ultimates
+2025-03-07 18:28:35,869 - INFO - Found exact match for: Golden Rule
+2025-03-07 18:28:35,873 - INFO - Processing card 34/66: Rainbow Bridge of the Heart
+2025-03-07 18:28:35,942 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Tract
+2025-03-07 18:28:35,983 - INFO - Found exact match for: Crystal Bond
+2025-03-07 18:28:35,983 - INFO - Processing card 35/66: Foolish Burial Goods
+2025-03-07 18:28:36,463 - INFO - Fuzzy API match for 'Magicians' Soul': 'Magicians' Souls' (similarity: 0.96)
+2025-03-07 18:28:36,465 - INFO - Found exact match for: Awakening of the Crystal Ultimates
+2025-03-07 18:28:36,465 - INFO - Corrected: 'Magicians' Soul' -> 'Magicians' Souls'
+2025-03-07 18:28:36,466 - INFO - Processing card 36/66: Called by the Grave
+2025-03-07 18:28:36,466 - INFO - Processing card 37/66: Triple Tactics Thrust
+2025-03-07 18:28:36,630 - INFO - Found exact match for: Foolish Burial Goods
+2025-03-07 18:28:36,630 - INFO - Processing card 38/66: Triple Tactics Talents
+2025-03-07 18:28:36,715 - INFO - Found exact match for: Rainbow Bridge of the Heart
+2025-03-07 18:28:36,715 - INFO - Processing card 39/66: Vaylantz World - Shinra Bansho
+2025-03-07 18:28:36,743 - INFO - Found exact match for: Called by the Grave
+2025-03-07 18:28:36,744 - INFO - Processing card 40/66: Vaylantz World - Konig Wissen
+2025-03-07 18:28:36,834 - INFO - Fuzzy API match for 'Fiendsmith Tract': 'Fiendsmith's Tract' (similarity: 0.93)
+2025-03-07 18:28:36,835 - INFO - Corrected: 'Fiendsmith Tract' -> 'Fiendsmith's Tract'
+2025-03-07 18:28:36,836 - INFO - Processing card 41/66: World Legacy Succession
+2025-03-07 18:28:36,888 - INFO - Fuzzy API match for 'World Legacy - "World Shield"': 'World Legacy - "World Shield"' (similarity: 1.00)
+2025-03-07 18:28:36,889 - INFO - Processing card 42/66: Rainbow Bridge of Salvation
+2025-03-07 18:28:36,918 - INFO - Found exact match for: Triple Tactics Thrust
+2025-03-07 18:28:36,919 - INFO - Processing card 43/66: Harpies' Feather Storm
+2025-03-07 18:28:37,190 - INFO - Found exact match for: Vaylantz World - Shinra Bansho
+2025-03-07 18:28:37,191 - INFO - Processing card 44/66: Infinite Impermanence
+2025-03-07 18:28:37,206 - INFO - Found exact match for: Rainbow Bridge of Salvation
+2025-03-07 18:28:37,207 - INFO - Processing card 45/66: Protector Whelp of the Destruction Swordsman
+2025-03-07 18:28:37,226 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Triple%20Tactics%20Talents
+2025-03-07 18:28:37,241 - INFO - Found exact match for: Vaylantz World - Konig Wissen
+2025-03-07 18:28:37,242 - INFO - Processing card 46/66: Magisitus Chorozo
+2025-03-07 18:28:37,263 - INFO - Fuzzy API match for 'World Legacy - "World Chalice"': 'World Legacy - "World Chalice"' (similarity: 1.00)
+2025-03-07 18:28:37,264 - INFO - Processing card 47/66: Necroquip Princess
+2025-03-07 18:28:37,292 - INFO - Fuzzy API match for 'Divine Temple of the Snake-eyes': 'Divine Temple of the Snake-Eye' (similarity: 0.98)
+2025-03-07 18:28:37,292 - INFO - Corrected: 'Divine Temple of the Snake-eyes' -> 'Divine Temple of the Snake-Eye'
+2025-03-07 18:28:37,292 - INFO - Processing card 48/66: Snake-eye Doomed Dragon
+2025-03-07 18:28:37,332 - INFO - Found exact match for: World Legacy Succession
+2025-03-07 18:28:37,332 - INFO - Processing card 49/66: Gallant Granite
+2025-03-07 18:28:37,353 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Harpies%2527%20Feather%20Storm
+2025-03-07 18:28:37,479 - INFO - Found exact match for: Infinite Impermanence
+2025-03-07 18:28:37,480 - INFO - Processing card 50/66: Infernal Flame Banshee
+2025-03-07 18:28:37,606 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Doomed%20Dragon
+2025-03-07 18:28:37,641 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magisitus%20Chorozo
+2025-03-07 18:28:37,645 - INFO - Found exact match for: Necroquip Princess
+2025-03-07 18:28:37,646 - INFO - Processing card 51/66: D/D/D Wave High King Caesar
+2025-03-07 18:28:37,669 - INFO - Found exact match for: Protector Whelp of the Destruction Swordsman
+2025-03-07 18:28:37,669 - INFO - Processing card 52/66: Moon of the Closed Heaven
+2025-03-07 18:28:37,684 - INFO - Found exact match for: Gallant Granite
+2025-03-07 18:28:37,684 - INFO - Processing card 53/66: Mekk-Knight Crusadia Avramax
+2025-03-07 18:28:37,996 - INFO - Found exact match for: Moon of the Closed Heaven
+2025-03-07 18:28:37,996 - INFO - Processing card 54/66: I:P Masquerena
+2025-03-07 18:28:38,025 - INFO - Found exact match for: Infernal Flame Banshee
+2025-03-07 18:28:38,025 - INFO - Processing card 55/66: Relinquished Anima
+2025-03-07 18:28:38,061 - INFO - Found exact match for: D/D/D Wave High King Caesar
+2025-03-07 18:28:38,061 - INFO - Processing card 56/66: Knightmare Gryphon
+2025-03-07 18:28:38,264 - INFO - Found exact match for: Mekk-Knight Crusadia Avramax
+2025-03-07 18:28:38,264 - INFO - Processing card 57/66: A Bao A Qu, The Lightless Shadow
+2025-03-07 18:28:38,395 - INFO - Found exact match for: Relinquished Anima
+2025-03-07 18:28:38,396 - INFO - Processing card 58/66: Cross-Sheep
+2025-03-07 18:28:38,435 - INFO - Found exact match for: I:P Masquerena
+2025-03-07 18:28:38,436 - INFO - Processing card 59/66: Fiendsmith Requiem
+2025-03-07 18:28:38,462 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=Magisitus
+2025-03-07 18:28:38,499 - INFO - Found exact match for: Knightmare Gryphon
+2025-03-07 18:28:38,499 - INFO - Processing card 60/66: Fiendsmith Agnumday
+2025-03-07 18:28:38,524 - INFO - Fuzzy API match for 'Snake-eye Doomed Dragon': 'Snake-Eyes Doomed Dragon' (similarity: 0.97)
+2025-03-07 18:28:38,524 - INFO - Corrected: 'Snake-eye Doomed Dragon' -> 'Snake-Eyes Doomed Dragon'
+2025-03-07 18:28:38,525 - INFO - Processing card 61/66: Fiendsmith Sequence
+2025-03-07 18:28:38,712 - INFO - Found exact match for: Cross-Sheep
+2025-03-07 18:28:38,712 - INFO - Processing card 62/66: Fiendsmith Desirae
+2025-03-07 18:28:38,748 - INFO - Found exact match for: A Bao A Qu, The Lightless Shadow
+2025-03-07 18:28:38,749 - INFO - Processing card 63/66: Ib the World Chalice Justiciar
+2025-03-07 18:28:38,890 - INFO - Found exact match for: Fiendsmith Requiem
+2025-03-07 18:28:38,891 - INFO - Processing card 64/66: Rciela Sinister Soul of the White Forest
+2025-03-07 18:28:38,918 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Sequence
+2025-03-07 18:28:39,035 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Agnumday
+2025-03-07 18:28:39,136 - INFO - Found exact match for: Ib the World Chalice Justiciar
+2025-03-07 18:28:39,137 - INFO - Processing card 65/66: Power Tool Dragon
+2025-03-07 18:28:39,286 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Desirae
+2025-03-07 18:28:39,349 - INFO - Fuzzy API match for 'Harpies' Feather Storm': 'Harpie's Feather Storm' (similarity: 0.94)
+2025-03-07 18:28:39,349 - INFO - Corrected: 'Harpies' Feather Storm' -> 'Harpie's Feather Storm'
+2025-03-07 18:28:39,350 - INFO - Processing card 66/66: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-07 18:28:39,390 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Rciela%20Sinister%20Soul%20of%20the%20White%20Forest
+2025-03-07 18:28:39,432 - INFO - Fuzzy API match for 'Fiendsmith Sequence': 'Fiendsmith's Sequence' (similarity: 0.94)
+2025-03-07 18:28:39,433 - INFO - Corrected: 'Fiendsmith Sequence' -> 'Fiendsmith's Sequence'
+2025-03-07 18:28:39,538 - INFO - Fuzzy API match for 'Fiendsmith Agnumday': 'Fiendsmith's Agnumday' (similarity: 0.94)
+2025-03-07 18:28:39,538 - INFO - Corrected: 'Fiendsmith Agnumday' -> 'Fiendsmith's Agnumday'
+2025-03-07 18:28:39,581 - INFO - Fuzzy API match for 'Triple Tactics Talents': 'Triple Tactics Talent' (similarity: 0.97)
+2025-03-07 18:28:39,582 - INFO - Corrected: 'Triple Tactics Talents' -> 'Triple Tactics Talent'
+2025-03-07 18:28:39,643 - INFO - Fuzzy API match for 'Magisitus Chorozo': 'Magistus Chorozo' (similarity: 0.96)
+2025-03-07 18:28:39,644 - INFO - Corrected: 'Magisitus Chorozo' -> 'Magistus Chorozo'
+2025-03-07 18:28:39,651 - INFO - Found exact match for: Power Tool Dragon
+2025-03-07 18:28:39,740 - INFO - Fuzzy API match for 'Fiendsmith Desirae': 'Fiendsmith's Desirae' (similarity: 0.93)
+2025-03-07 18:28:39,740 - INFO - Corrected: 'Fiendsmith Desirae' -> 'Fiendsmith's Desirae'
+2025-03-07 18:28:40,017 - INFO - Found exact match for: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-07 18:28:41,111 - INFO - Fuzzy API match for 'Rciela Sinister Soul of the White Forest': 'Rciela, Sinister Soul of the White Forest' (similarity: 0.98)
+2025-03-07 18:28:41,111 - INFO - Corrected: 'Rciela Sinister Soul of the White Forest' -> 'Rciela, Sinister Soul of the White Forest'
+2025-03-07 18:28:41,113 - INFO - Database saved to: yugioh_card_database.md
+2025-03-07 18:28:41,114 - INFO - Database generation completed successfully.
+2025-03-07 18:29:34,701 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-07 18:29:34,734 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.176:5000
+2025-03-07 18:29:34,734 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 18:29:34,735 - INFO -  * Restarting with stat
+2025-03-07 18:29:35,000 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-07 18:29:35,012 - WARNING -  * Debugger is active!
+2025-03-07 18:29:35,015 - INFO -  * Debugger PIN: 805-930-223
+2025-03-07 18:29:49,665 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:49] "GET /analyzer HTTP/1.1" 200 -
+2025-03-07 18:29:49,793 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:49] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-07 18:29:50,478 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:50] "GET /static/js/components/DeckVisualization.jsx HTTP/1.1" 200 -
+2025-03-07 18:29:50,781 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:50] "[33mGET /static/js/components/CardDetails.jsx HTTP/1.1[0m" 404 -
+2025-03-07 18:29:50,783 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:50] "[36mGET /static/js/components/DeckAnalyzer.jsx HTTP/1.1[0m" 304 -
+2025-03-07 18:29:50,785 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-07 18:29:50,794 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:50] "GET /static/js/components/AnalysisResults.jsx HTTP/1.1" 200 -
+2025-03-07 18:29:50,906 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-07 18:29:57,886 - INFO - 127.0.0.1 - - [07/Mar/2025 18:29:57] "GET /results HTTP/1.1" 200 -
+2025-03-07 18:30:01,360 - INFO - 127.0.0.1 - - [07/Mar/2025 18:30:01] "GET / HTTP/1.1" 200 -
+2025-03-07 18:30:06,687 - INFO - 127.0.0.1 - - [07/Mar/2025 18:30:06] "GET / HTTP/1.1" 200 -
+2025-03-07 18:30:12,986 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Flamberge%20Dragon
+2025-03-07 18:30:13,315 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Diabellstar
+2025-03-07 18:30:13,682 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Poplar
+2025-03-07 18:30:13,996 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Divine%20Temple%20of%20the%20Snake-eyes
+2025-03-07 18:30:14,276 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Triple%20Tactics%20Talents
+2025-03-07 18:30:14,612 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Doomed%20Dragon
+2025-03-07 18:30:14,651 - ERROR - Error analyzing deck: Traceback (most recent call last):
+  File "C:\Users\Xerod\Desktop\YGO Database Project\yugioh_db_generator\web\web_ui.py", line 222, in analyze_deck_api
+    analysis_results = analyzer.analyze_deck(deck_list, card_data)
+  File "C:\Users\Xerod\Desktop\YGO Database Project\yugioh_db_generator\ai\deck_analyzer.py", line 137, in analyze_deck
+    analysis["card_types"] = self._analyze_card_types(deck_list, card_data)
+AttributeError: 'DeckStrengthAnalyzer' object has no attribute '_analyze_card_types'
+
+2025-03-07 18:30:14,652 - INFO - 127.0.0.1 - - [07/Mar/2025 18:30:14] "[35m[1mPOST /api/analyze-deck HTTP/1.1[0m" 500 -
+2025-03-07 18:31:26,980 - INFO - No input file provided. Using example deck list.
+2025-03-07 18:31:26,981 - INFO - Processing 66 cards...
+2025-03-07 18:31:27,615 - INFO - Loaded 13575 cards into search engine
+2025-03-07 18:31:27,617 - WARNING - Error loading official rulings: [Errno 2] No such file or directory: 'konami_rulings.json'
+2025-03-07 18:31:27,617 - INFO - Generating database for 66 cards
+2025-03-07 18:31:27,618 - INFO - Processing cards using 8 threads
+2025-03-07 18:31:27,619 - INFO - Processing card 1/66: Snake-eye Flamberge Dragon
+2025-03-07 18:31:27,620 - INFO - Processing card 2/66: Snake-eye Diabellstar
+2025-03-07 18:31:27,621 - INFO - Processing card 3/66: Snake-eye Ash
+2025-03-07 18:31:27,622 - INFO - Processing card 4/66: Snake-eye Oak
+2025-03-07 18:31:27,622 - INFO - Processing card 5/66: Snake-eye Poplar
+2025-03-07 18:31:27,622 - INFO - Processing card 6/66: Snake-eye Birch
+2025-03-07 18:31:27,623 - INFO - Processing card 7/66: Fabled Lurrie
+2025-03-07 18:31:27,623 - INFO - Processing card 8/66: Lacrima the Crimson Tear
+2025-03-07 18:31:27,927 - INFO - Found exact match for: Snake-eye Birch
+2025-03-07 18:31:27,927 - INFO - Processing card 9/66: Fiendsmith Engraver
+2025-03-07 18:31:27,950 - INFO - Found exact match for: Snake-eye Ash
+2025-03-07 18:31:27,951 - INFO - Found exact match for: Fabled Lurrie
+2025-03-07 18:31:27,951 - INFO - Processing card 10/66: Fiendsmith in Paradise
+2025-03-07 18:31:27,952 - INFO - Processing card 11/66: Fiendsmith Kyrie
+2025-03-07 18:31:27,952 - INFO - Found exact match for: Snake-eye Oak
+2025-03-07 18:31:27,954 - INFO - Processing card 12/66: Rainbow Dragon
+2025-03-07 18:31:27,971 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Flamberge%20Dragon
+2025-03-07 18:31:28,096 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Diabellstar
+2025-03-07 18:31:28,119 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Poplar
+2025-03-07 18:31:28,122 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Lacrima%20the%20Crimson%20Tear
+2025-03-07 18:31:28,137 - INFO - Found exact match for: Fiendsmith Engraver
+2025-03-07 18:31:28,138 - INFO - Processing card 13/66: Crystal Beast Rainbow Dragon
+2025-03-07 18:31:28,244 - INFO - Found exact match for: Fiendsmith Kyrie
+2025-03-07 18:31:28,246 - INFO - Processing card 14/66: Crystal Beast Sapphire Pegasus
+2025-03-07 18:31:28,249 - INFO - Found exact match for: Fiendsmith in Paradise
+2025-03-07 18:31:28,249 - INFO - Processing card 15/66: Crystal Beast Cobalt Eagle
+2025-03-07 18:31:28,265 - INFO - Found exact match for: Rainbow Dragon
+2025-03-07 18:31:28,265 - INFO - Processing card 16/66: Crystal Beast Ruby Carbuncle
+2025-03-07 18:31:28,344 - INFO - Found exact match for: Crystal Beast Rainbow Dragon
+2025-03-07 18:31:28,345 - INFO - Processing card 17/66: Magicians' Soul
+2025-03-07 18:31:28,474 - INFO - Found exact match for: Crystal Beast Sapphire Pegasus
+2025-03-07 18:31:28,475 - INFO - Processing card 18/66: Illusion of Chaos
+2025-03-07 18:31:28,542 - INFO - Found exact match for: Crystal Beast Ruby Carbuncle
+2025-03-07 18:31:28,543 - INFO - Processing card 19/66: Chaos Allure Queen
+2025-03-07 18:31:28,574 - INFO - Found exact match for: Crystal Beast Cobalt Eagle
+2025-03-07 18:31:28,576 - INFO - Processing card 20/66: Allure Queen LV3
+2025-03-07 18:31:28,634 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magicians%2527%20Soul
+2025-03-07 18:31:28,637 - INFO - Fuzzy API match for 'Lacrima the Crimson Tear': 'Lacrima the Crimson Tears' (similarity: 0.97)
+2025-03-07 18:31:28,639 - INFO - Corrected: 'Lacrima the Crimson Tear' -> 'Lacrima the Crimson Tears'
+2025-03-07 18:31:28,639 - INFO - Processing card 21/66: Allure Queen LV5
+2025-03-07 18:31:28,750 - INFO - Fuzzy API match for 'Snake-eye Flamberge Dragon': 'Snake-Eyes Flamberge Dragon' (similarity: 0.98)
+2025-03-07 18:31:28,751 - INFO - Corrected: 'Snake-eye Flamberge Dragon' -> 'Snake-Eyes Flamberge Dragon'
+2025-03-07 18:31:28,754 - INFO - Fuzzy API match for 'Snake-eye Poplar': 'Snake-Eyes Poplar' (similarity: 0.96)
+2025-03-07 18:31:28,755 - INFO - Found exact match for: Illusion of Chaos
+2025-03-07 18:31:28,755 - INFO - Processing card 22/66: World Legacy - "World Chalice"
+2025-03-07 18:31:28,756 - INFO - Corrected: 'Snake-eye Poplar' -> 'Snake-Eyes Poplar'
+2025-03-07 18:31:28,756 - INFO - Processing card 23/66: Chosen by the World Chalice
+2025-03-07 18:31:28,757 - INFO - Processing card 24/66: Dragon Buster Destruction Sword
+2025-03-07 18:31:28,777 - INFO - Fuzzy API match for 'Snake-eye Diabellstar': 'Snake-Eyes Diabellstar' (similarity: 0.97)
+2025-03-07 18:31:28,777 - INFO - Corrected: 'Snake-eye Diabellstar' -> 'Snake-Eyes Diabellstar'
+2025-03-07 18:31:28,778 - INFO - Processing card 25/66: World Legacy - "World Shield"
+2025-03-07 18:31:28,878 - INFO - Found exact match for: Allure Queen LV3
+2025-03-07 18:31:28,879 - INFO - Processing card 26/66: Dramatic Snake-eye Chase
+2025-03-07 18:31:28,889 - INFO - Found exact match for: Allure Queen LV5
+2025-03-07 18:31:28,891 - INFO - Processing card 27/66: Divine Temple of the Snake-eyes
+2025-03-07 18:31:29,025 - INFO - Found exact match for: Chosen by the World Chalice
+2025-03-07 18:31:29,026 - INFO - Found exact match for: Dragon Buster Destruction Sword
+2025-03-07 18:31:29,026 - INFO - Processing card 28/66: One for One
+2025-03-07 18:31:29,027 - INFO - Processing card 29/66: Fiendsmith Tract
+2025-03-07 18:31:29,061 - INFO - Found exact match for: Chaos Allure Queen
+2025-03-07 18:31:29,062 - INFO - Processing card 30/66: Rainbow Bridge
+2025-03-07 18:31:29,121 - INFO - Found exact match for: Dramatic Snake-eye Chase
+2025-03-07 18:31:29,122 - INFO - Processing card 31/66: Crystal Bond
+2025-03-07 18:31:29,158 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Chalice%2522
+2025-03-07 18:31:29,161 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Shield%2522
+2025-03-07 18:31:29,196 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Divine%20Temple%20of%20the%20Snake-eyes
+2025-03-07 18:31:29,306 - INFO - Found exact match for: One for One
+2025-03-07 18:31:29,306 - INFO - Processing card 32/66: Golden Rule
+2025-03-07 18:31:29,386 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Tract
+2025-03-07 18:31:29,394 - INFO - Found exact match for: Rainbow Bridge
+2025-03-07 18:31:29,394 - INFO - Processing card 33/66: Awakening of the Crystal Ultimates
+2025-03-07 18:31:29,432 - INFO - Found exact match for: Crystal Bond
+2025-03-07 18:31:29,433 - INFO - Fuzzy API match for 'Magicians' Soul': 'Magicians' Souls' (similarity: 0.96)
+2025-03-07 18:31:29,434 - INFO - Processing card 34/66: Rainbow Bridge of the Heart
+2025-03-07 18:31:29,434 - INFO - Corrected: 'Magicians' Soul' -> 'Magicians' Souls'
+2025-03-07 18:31:29,435 - INFO - Processing card 35/66: Foolish Burial Goods
+2025-03-07 18:31:29,521 - INFO - Found exact match for: Golden Rule
+2025-03-07 18:31:29,521 - INFO - Processing card 36/66: Called by the Grave
+2025-03-07 18:31:29,610 - INFO - Found exact match for: Rainbow Bridge of the Heart
+2025-03-07 18:31:29,611 - INFO - Processing card 37/66: Triple Tactics Thrust
+2025-03-07 18:31:29,641 - INFO - Found exact match for: Awakening of the Crystal Ultimates
+2025-03-07 18:31:29,642 - INFO - Processing card 38/66: Triple Tactics Talents
+2025-03-07 18:31:29,662 - INFO - Fuzzy API match for 'Divine Temple of the Snake-eyes': 'Divine Temple of the Snake-Eye' (similarity: 0.98)
+2025-03-07 18:31:29,667 - INFO - Corrected: 'Divine Temple of the Snake-eyes' -> 'Divine Temple of the Snake-Eye'
+2025-03-07 18:31:29,667 - INFO - Processing card 39/66: Vaylantz World - Shinra Bansho
+2025-03-07 18:31:29,723 - INFO - Found exact match for: Foolish Burial Goods
+2025-03-07 18:31:29,724 - INFO - Processing card 40/66: Vaylantz World - Konig Wissen
+2025-03-07 18:31:29,806 - INFO - Found exact match for: Called by the Grave
+2025-03-07 18:31:29,806 - INFO - Processing card 41/66: World Legacy Succession
+2025-03-07 18:31:29,893 - INFO - Fuzzy API match for 'Fiendsmith Tract': 'Fiendsmith's Tract' (similarity: 0.93)
+2025-03-07 18:31:29,894 - INFO - Found exact match for: Vaylantz World - Shinra Bansho
+2025-03-07 18:31:29,895 - INFO - Corrected: 'Fiendsmith Tract' -> 'Fiendsmith's Tract'
+2025-03-07 18:31:29,895 - INFO - Processing card 42/66: Rainbow Bridge of Salvation
+2025-03-07 18:31:29,896 - INFO - Processing card 43/66: Harpies' Feather Storm
+2025-03-07 18:31:29,899 - INFO - Found exact match for: Triple Tactics Thrust
+2025-03-07 18:31:29,899 - INFO - Processing card 44/66: Infinite Impermanence
+2025-03-07 18:31:29,950 - INFO - Fuzzy API match for 'World Legacy - "World Shield"': 'World Legacy - "World Shield"' (similarity: 1.00)
+2025-03-07 18:31:29,950 - INFO - Processing card 45/66: Protector Whelp of the Destruction Swordsman
+2025-03-07 18:31:30,020 - INFO - Fuzzy API match for 'World Legacy - "World Chalice"': 'World Legacy - "World Chalice"' (similarity: 1.00)
+2025-03-07 18:31:30,022 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Triple%20Tactics%20Talents
+2025-03-07 18:31:30,024 - INFO - Found exact match for: Vaylantz World - Konig Wissen
+2025-03-07 18:31:30,024 - INFO - Processing card 46/66: Magisitus Chorozo
+2025-03-07 18:31:30,025 - INFO - Processing card 47/66: Necroquip Princess
+2025-03-07 18:31:30,122 - INFO - Found exact match for: Infinite Impermanence
+2025-03-07 18:31:30,123 - INFO - Processing card 48/66: Snake-eye Doomed Dragon
+2025-03-07 18:31:30,133 - INFO - Found exact match for: World Legacy Succession
+2025-03-07 18:31:30,134 - INFO - Processing card 49/66: Gallant Granite
+2025-03-07 18:31:30,172 - INFO - Found exact match for: Rainbow Bridge of Salvation
+2025-03-07 18:31:30,173 - INFO - Processing card 50/66: Infernal Flame Banshee
+2025-03-07 18:31:30,239 - INFO - Found exact match for: Protector Whelp of the Destruction Swordsman
+2025-03-07 18:31:30,239 - INFO - Processing card 51/66: D/D/D Wave High King Caesar
+2025-03-07 18:31:30,290 - INFO - Found exact match for: Necroquip Princess
+2025-03-07 18:31:30,290 - INFO - Processing card 52/66: Moon of the Closed Heaven
+2025-03-07 18:31:30,343 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Harpies%2527%20Feather%20Storm
+2025-03-07 18:31:30,376 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Doomed%20Dragon
+2025-03-07 18:31:30,395 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magisitus%20Chorozo
+2025-03-07 18:31:30,406 - INFO - Found exact match for: Gallant Granite
+2025-03-07 18:31:30,407 - INFO - Processing card 53/66: Mekk-Knight Crusadia Avramax
+2025-03-07 18:31:30,408 - INFO - Found exact match for: Infernal Flame Banshee
+2025-03-07 18:31:30,408 - INFO - Processing card 54/66: I:P Masquerena
+2025-03-07 18:31:30,521 - INFO - Found exact match for: Moon of the Closed Heaven
+2025-03-07 18:31:30,522 - INFO - Processing card 55/66: Relinquished Anima
+2025-03-07 18:31:30,524 - INFO - Found exact match for: D/D/D Wave High King Caesar
+2025-03-07 18:31:30,524 - INFO - Processing card 56/66: Knightmare Gryphon
+2025-03-07 18:31:30,620 - INFO - Found exact match for: Mekk-Knight Crusadia Avramax
+2025-03-07 18:31:30,621 - INFO - Processing card 57/66: A Bao A Qu, The Lightless Shadow
+2025-03-07 18:31:30,656 - INFO - Found exact match for: I:P Masquerena
+2025-03-07 18:31:30,657 - INFO - Processing card 58/66: Cross-Sheep
+2025-03-07 18:31:30,745 - INFO - Found exact match for: Knightmare Gryphon
+2025-03-07 18:31:30,746 - INFO - Processing card 59/66: Fiendsmith Requiem
+2025-03-07 18:31:30,759 - INFO - Fuzzy API match for 'Triple Tactics Talents': 'Triple Tactics Talent' (similarity: 0.97)
+2025-03-07 18:31:30,759 - INFO - Corrected: 'Triple Tactics Talents' -> 'Triple Tactics Talent'
+2025-03-07 18:31:30,759 - INFO - Processing card 60/66: Fiendsmith Agnumday
+2025-03-07 18:31:30,762 - INFO - Found exact match for: Relinquished Anima
+2025-03-07 18:31:30,762 - INFO - Processing card 61/66: Fiendsmith Sequence
+2025-03-07 18:31:30,842 - INFO - Found exact match for: Cross-Sheep
+2025-03-07 18:31:30,842 - INFO - Processing card 62/66: Fiendsmith Desirae
+2025-03-07 18:31:30,844 - INFO - Found exact match for: A Bao A Qu, The Lightless Shadow
+2025-03-07 18:31:30,845 - INFO - Processing card 63/66: Ib the World Chalice Justiciar
+2025-03-07 18:31:30,958 - INFO - Found exact match for: Fiendsmith Requiem
+2025-03-07 18:31:30,959 - INFO - Processing card 64/66: Rciela Sinister Soul of the White Forest
+2025-03-07 18:31:31,077 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=Magisitus
+2025-03-07 18:31:31,078 - INFO - Fuzzy API match for 'Magisitus Chorozo': 'Magistus Chorozo' (similarity: 0.96)
+2025-03-07 18:31:31,078 - INFO - Corrected: 'Magisitus Chorozo' -> 'Magistus Chorozo'
+2025-03-07 18:31:31,078 - INFO - Processing card 65/66: Power Tool Dragon
+2025-03-07 18:31:31,089 - INFO - Fuzzy API match for 'Snake-eye Doomed Dragon': 'Snake-Eyes Doomed Dragon' (similarity: 0.97)
+2025-03-07 18:31:31,093 - INFO - Fuzzy API match for 'Harpies' Feather Storm': 'Harpie's Feather Storm' (similarity: 0.94)
+2025-03-07 18:31:31,093 - INFO - Corrected: 'Snake-eye Doomed Dragon' -> 'Snake-Eyes Doomed Dragon'
+2025-03-07 18:31:31,094 - INFO - Corrected: 'Harpies' Feather Storm' -> 'Harpie's Feather Storm'
+2025-03-07 18:31:31,094 - INFO - Processing card 66/66: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-07 18:31:31,103 - INFO - Found exact match for: Ib the World Chalice Justiciar
+2025-03-07 18:31:31,244 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Sequence
+2025-03-07 18:31:31,296 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Desirae
+2025-03-07 18:31:31,331 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Agnumday
+2025-03-07 18:31:31,339 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Rciela%20Sinister%20Soul%20of%20the%20White%20Forest
+2025-03-07 18:31:31,369 - INFO - Found exact match for: Power Tool Dragon
+2025-03-07 18:31:31,372 - INFO - Found exact match for: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-07 18:31:31,668 - INFO - Fuzzy API match for 'Fiendsmith Sequence': 'Fiendsmith's Sequence' (similarity: 0.94)
+2025-03-07 18:31:31,670 - INFO - Corrected: 'Fiendsmith Sequence' -> 'Fiendsmith's Sequence'
+2025-03-07 18:31:31,811 - INFO - Fuzzy API match for 'Fiendsmith Agnumday': 'Fiendsmith's Agnumday' (similarity: 0.94)
+2025-03-07 18:31:31,811 - INFO - Corrected: 'Fiendsmith Agnumday' -> 'Fiendsmith's Agnumday'
+2025-03-07 18:31:31,868 - INFO - Fuzzy API match for 'Fiendsmith Desirae': 'Fiendsmith's Desirae' (similarity: 0.93)
+2025-03-07 18:31:31,868 - INFO - Corrected: 'Fiendsmith Desirae' -> 'Fiendsmith's Desirae'
+2025-03-07 18:31:32,009 - INFO - Fuzzy API match for 'Rciela Sinister Soul of the White Forest': 'Rciela, Sinister Soul of the White Forest' (similarity: 0.98)
+2025-03-07 18:31:32,010 - INFO - Corrected: 'Rciela Sinister Soul of the White Forest' -> 'Rciela, Sinister Soul of the White Forest'
+2025-03-07 18:31:32,012 - INFO - Database saved to: yugioh_card_database.md
+2025-03-07 18:31:32,012 - INFO - Database generation completed successfully.
+2025-03-24 15:32:31,495 - INFO - No input file provided. Using example deck list.
+2025-03-24 15:32:31,496 - INFO - Processing 66 cards...
+2025-03-24 15:32:32,494 - INFO - Loaded 13611 cards into search engine
+2025-03-24 15:32:32,495 - WARNING - Error loading official rulings: [Errno 2] No such file or directory: 'konami_rulings.json'
+2025-03-24 15:32:32,495 - INFO - Generating database for 66 cards
+2025-03-24 15:32:32,496 - INFO - Processing cards using 8 threads
+2025-03-24 15:32:32,496 - INFO - Processing card 1/66: Snake-eye Flamberge Dragon
+2025-03-24 15:32:32,496 - INFO - Processing card 2/66: Snake-eye Diabellstar
+2025-03-24 15:32:32,497 - INFO - Processing card 3/66: Snake-eye Ash
+2025-03-24 15:32:32,497 - INFO - Processing card 4/66: Snake-eye Oak
+2025-03-24 15:32:32,498 - INFO - Processing card 5/66: Snake-eye Poplar
+2025-03-24 15:32:32,498 - INFO - Processing card 6/66: Snake-eye Birch
+2025-03-24 15:32:32,499 - INFO - Processing card 7/66: Fabled Lurrie
+2025-03-24 15:32:32,500 - INFO - Processing card 8/66: Lacrima the Crimson Tear
+2025-03-24 15:32:32,903 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Flamberge%20Dragon
+2025-03-24 15:32:33,022 - INFO - Found exact match for: Snake-eye Oak
+2025-03-24 15:32:33,023 - INFO - Processing card 9/66: Fiendsmith Engraver
+2025-03-24 15:32:33,083 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Diabellstar
+2025-03-24 15:32:33,087 - INFO - Found exact match for: Snake-eye Birch
+2025-03-24 15:32:33,087 - INFO - Processing card 10/66: Fiendsmith in Paradise
+2025-03-24 15:32:33,129 - INFO - Found exact match for: Fabled Lurrie
+2025-03-24 15:32:33,129 - INFO - Processing card 11/66: Fiendsmith Kyrie
+2025-03-24 15:32:33,143 - INFO - Found exact match for: Snake-eye Ash
+2025-03-24 15:32:33,144 - INFO - Processing card 12/66: Rainbow Dragon
+2025-03-24 15:32:33,181 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Lacrima%20the%20Crimson%20Tear
+2025-03-24 15:32:33,195 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Poplar
+2025-03-24 15:32:33,410 - INFO - Found exact match for: Fiendsmith Engraver
+2025-03-24 15:32:33,410 - INFO - Processing card 13/66: Crystal Beast Rainbow Dragon
+2025-03-24 15:32:33,526 - INFO - Found exact match for: Fiendsmith in Paradise
+2025-03-24 15:32:33,526 - INFO - Processing card 14/66: Crystal Beast Sapphire Pegasus
+2025-03-24 15:32:33,606 - INFO - Found exact match for: Crystal Beast Rainbow Dragon
+2025-03-24 15:32:33,606 - INFO - Processing card 15/66: Crystal Beast Cobalt Eagle
+2025-03-24 15:32:33,648 - INFO - Found exact match for: Fiendsmith Kyrie
+2025-03-24 15:32:33,649 - INFO - Processing card 16/66: Crystal Beast Ruby Carbuncle
+2025-03-24 15:32:33,734 - INFO - Found exact match for: Rainbow Dragon
+2025-03-24 15:32:33,734 - INFO - Processing card 17/66: Magicians' Soul
+2025-03-24 15:32:33,835 - INFO - Found exact match for: Crystal Beast Cobalt Eagle
+2025-03-24 15:32:33,835 - INFO - Processing card 18/66: Illusion of Chaos
+2025-03-24 15:32:33,843 - INFO - Found exact match for: Crystal Beast Sapphire Pegasus
+2025-03-24 15:32:33,843 - INFO - Processing card 19/66: Chaos Allure Queen
+2025-03-24 15:32:33,949 - INFO - Found exact match for: Crystal Beast Ruby Carbuncle
+2025-03-24 15:32:33,950 - INFO - Processing card 20/66: Allure Queen LV3
+2025-03-24 15:32:34,017 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magicians%2527%20Soul
+2025-03-24 15:32:34,147 - INFO - Found exact match for: Illusion of Chaos
+2025-03-24 15:32:34,148 - INFO - Processing card 21/66: Allure Queen LV5
+2025-03-24 15:32:34,197 - INFO - Found exact match for: Chaos Allure Queen
+2025-03-24 15:32:34,198 - INFO - Processing card 22/66: World Legacy - "World Chalice"
+2025-03-24 15:32:34,255 - INFO - Found exact match for: Allure Queen LV3
+2025-03-24 15:32:34,256 - INFO - Processing card 23/66: Chosen by the World Chalice
+2025-03-24 15:32:34,320 - INFO - Fuzzy API match for 'Snake-eye Diabellstar': 'Snake-Eyes Diabellstar' (similarity: 0.97)
+2025-03-24 15:32:34,321 - INFO - Corrected: 'Snake-eye Diabellstar' -> 'Snake-Eyes Diabellstar'
+2025-03-24 15:32:34,321 - INFO - Processing card 24/66: Dragon Buster Destruction Sword
+2025-03-24 15:32:34,329 - INFO - Fuzzy API match for 'Snake-eye Poplar': 'Snake-Eyes Poplar' (similarity: 0.96)
+2025-03-24 15:32:34,329 - INFO - Corrected: 'Snake-eye Poplar' -> 'Snake-Eyes Poplar'
+2025-03-24 15:32:34,330 - INFO - Processing card 25/66: World Legacy - "World Shield"
+2025-03-24 15:32:34,443 - INFO - Found exact match for: Allure Queen LV5
+2025-03-24 15:32:34,445 - INFO - Fuzzy API match for 'Lacrima the Crimson Tear': 'Lacrima the Crimson Tears' (similarity: 0.97)
+2025-03-24 15:32:34,445 - INFO - Processing card 26/66: Dramatic Snake-eye Chase
+2025-03-24 15:32:34,446 - INFO - Corrected: 'Lacrima the Crimson Tear' -> 'Lacrima the Crimson Tears'
+2025-03-24 15:32:34,447 - INFO - Processing card 27/66: Divine Temple of the Snake-eyes
+2025-03-24 15:32:34,701 - INFO - Found exact match for: Chosen by the World Chalice
+2025-03-24 15:32:34,702 - INFO - Processing card 28/66: One for One
+2025-03-24 15:32:34,755 - INFO - Fuzzy API match for 'Snake-eye Flamberge Dragon': 'Snake-Eyes Flamberge Dragon' (similarity: 0.98)
+2025-03-24 15:32:34,755 - INFO - Corrected: 'Snake-eye Flamberge Dragon' -> 'Snake-Eyes Flamberge Dragon'
+2025-03-24 15:32:34,755 - INFO - Processing card 29/66: Fiendsmith Tract
+2025-03-24 15:32:34,788 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Chalice%2522
+2025-03-24 15:32:34,819 - INFO - Found exact match for: Dragon Buster Destruction Sword
+2025-03-24 15:32:34,820 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Shield%2522
+2025-03-24 15:32:34,820 - INFO - Processing card 30/66: Rainbow Bridge
+2025-03-24 15:32:34,826 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Divine%20Temple%20of%20the%20Snake-eyes
+2025-03-24 15:32:34,827 - INFO - Found exact match for: Dramatic Snake-eye Chase
+2025-03-24 15:32:34,828 - INFO - Processing card 31/66: Crystal Bond
+2025-03-24 15:32:34,960 - INFO - Found exact match for: One for One
+2025-03-24 15:32:34,960 - INFO - Processing card 32/66: Golden Rule
+2025-03-24 15:32:35,094 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Tract
+2025-03-24 15:32:35,120 - INFO - Found exact match for: Rainbow Bridge
+2025-03-24 15:32:35,120 - INFO - Processing card 33/66: Awakening of the Crystal Ultimates
+2025-03-24 15:32:35,189 - INFO - Found exact match for: Crystal Bond
+2025-03-24 15:32:35,190 - INFO - Processing card 34/66: Rainbow Bridge of the Heart
+2025-03-24 15:32:35,233 - INFO - Found exact match for: Golden Rule
+2025-03-24 15:32:35,234 - INFO - Processing card 35/66: Foolish Burial Goods
+2025-03-24 15:32:35,348 - INFO - Found exact match for: Awakening of the Crystal Ultimates
+2025-03-24 15:32:35,348 - INFO - Processing card 36/66: Called by the Grave
+2025-03-24 15:32:35,482 - INFO - Found exact match for: Rainbow Bridge of the Heart
+2025-03-24 15:32:35,483 - INFO - Processing card 37/66: Triple Tactics Thrust
+2025-03-24 15:32:35,555 - INFO - Fuzzy API match for 'Magicians' Soul': 'Magicians' Souls' (similarity: 0.96)
+2025-03-24 15:32:35,555 - INFO - Corrected: 'Magicians' Soul' -> 'Magicians' Souls'
+2025-03-24 15:32:35,556 - INFO - Processing card 38/66: Triple Tactics Talents
+2025-03-24 15:32:35,687 - INFO - Found exact match for: Foolish Burial Goods
+2025-03-24 15:32:35,688 - INFO - Processing card 39/66: Vaylantz World - Shinra Bansho
+2025-03-24 15:32:35,689 - INFO - Found exact match for: Called by the Grave
+2025-03-24 15:32:35,691 - INFO - Processing card 40/66: Vaylantz World - Konig Wissen
+2025-03-24 15:32:35,763 - INFO - Found exact match for: Triple Tactics Thrust
+2025-03-24 15:32:35,764 - INFO - Processing card 41/66: World Legacy Succession
+2025-03-24 15:32:35,889 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Triple%20Tactics%20Talents
+2025-03-24 15:32:35,944 - INFO - Fuzzy API match for 'Divine Temple of the Snake-eyes': 'Divine Temple of the Snake-Eye' (similarity: 0.98)
+2025-03-24 15:32:35,946 - INFO - Found exact match for: Vaylantz World - Shinra Bansho
+2025-03-24 15:32:35,946 - INFO - Corrected: 'Divine Temple of the Snake-eyes' -> 'Divine Temple of the Snake-Eye'
+2025-03-24 15:32:35,947 - INFO - Processing card 42/66: Rainbow Bridge of Salvation
+2025-03-24 15:32:35,947 - INFO - Processing card 43/66: Harpies' Feather Storm
+2025-03-24 15:32:36,044 - INFO - Found exact match for: Vaylantz World - Konig Wissen
+2025-03-24 15:32:36,046 - INFO - Processing card 44/66: Infinite Impermanence
+2025-03-24 15:32:36,098 - INFO - Fuzzy API match for 'Fiendsmith Tract': 'Fiendsmith's Tract' (similarity: 0.93)
+2025-03-24 15:32:36,098 - INFO - Corrected: 'Fiendsmith Tract' -> 'Fiendsmith's Tract'
+2025-03-24 15:32:36,099 - INFO - Processing card 45/66: Protector Whelp of the Destruction Swordsman
+2025-03-24 15:32:36,149 - INFO - Found exact match for: World Legacy Succession
+2025-03-24 15:32:36,149 - INFO - Processing card 46/66: Magisitus Chorozo
+2025-03-24 15:32:36,235 - INFO - Fuzzy API match for 'World Legacy - "World Chalice"': 'World Legacy - "World Chalice"' (similarity: 1.00)
+2025-03-24 15:32:36,235 - INFO - Processing card 47/66: Necroquip Princess
+2025-03-24 15:32:36,287 - INFO - Found exact match for: Rainbow Bridge of Salvation
+2025-03-24 15:32:36,287 - INFO - Processing card 48/66: Snake-eye Doomed Dragon
+2025-03-24 15:32:36,352 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Harpies%2527%20Feather%20Storm
+2025-03-24 15:32:36,358 - INFO - Fuzzy API match for 'World Legacy - "World Shield"': 'World Legacy - "World Shield"' (similarity: 1.00)
+2025-03-24 15:32:36,359 - INFO - Processing card 49/66: Gallant Granite
+2025-03-24 15:32:36,415 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magisitus%20Chorozo
+2025-03-24 15:32:36,429 - INFO - Found exact match for: Protector Whelp of the Destruction Swordsman
+2025-03-24 15:32:36,429 - INFO - Processing card 50/66: Infernal Flame Banshee
+2025-03-24 15:32:36,431 - INFO - Found exact match for: Infinite Impermanence
+2025-03-24 15:32:36,433 - INFO - Processing card 51/66: D/D/D Wave High King Caesar
+2025-03-24 15:32:36,572 - INFO - Found exact match for: Necroquip Princess
+2025-03-24 15:32:36,573 - INFO - Processing card 52/66: Moon of the Closed Heaven
+2025-03-24 15:32:36,625 - INFO - Found exact match for: Gallant Granite
+2025-03-24 15:32:36,626 - INFO - Processing card 53/66: Mekk-Knight Crusadia Avramax
+2025-03-24 15:32:36,708 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Doomed%20Dragon
+2025-03-24 15:32:36,729 - INFO - Found exact match for: Infernal Flame Banshee
+2025-03-24 15:32:36,730 - INFO - Processing card 54/66: I:P Masquerena
+2025-03-24 15:32:36,856 - INFO - Found exact match for: Moon of the Closed Heaven
+2025-03-24 15:32:36,856 - INFO - Processing card 55/66: Relinquished Anima
+2025-03-24 15:32:36,860 - INFO - Found exact match for: D/D/D Wave High King Caesar
+2025-03-24 15:32:36,860 - INFO - Processing card 56/66: Knightmare Gryphon
+2025-03-24 15:32:37,000 - INFO - Found exact match for: Mekk-Knight Crusadia Avramax
+2025-03-24 15:32:37,001 - INFO - Processing card 57/66: A Bao A Qu, The Lightless Shadow
+2025-03-24 15:32:37,099 - INFO - Found exact match for: I:P Masquerena
+2025-03-24 15:32:37,099 - INFO - Processing card 58/66: Cross-Sheep
+2025-03-24 15:32:37,165 - INFO - Found exact match for: Knightmare Gryphon
+2025-03-24 15:32:37,165 - INFO - Processing card 59/66: Fiendsmith Requiem
+2025-03-24 15:32:37,189 - INFO - Found exact match for: Relinquished Anima
+2025-03-24 15:32:37,189 - INFO - Processing card 60/66: Fiendsmith Agnumday
+2025-03-24 15:32:37,210 - INFO - Fuzzy API match for 'Triple Tactics Talents': 'Triple Tactics Talent' (similarity: 0.97)
+2025-03-24 15:32:37,210 - INFO - Corrected: 'Triple Tactics Talents' -> 'Triple Tactics Talent'
+2025-03-24 15:32:37,211 - INFO - Processing card 61/66: Fiendsmith Sequence
+2025-03-24 15:32:37,275 - INFO - Found exact match for: A Bao A Qu, The Lightless Shadow
+2025-03-24 15:32:37,276 - INFO - Processing card 62/66: Fiendsmith Desirae
+2025-03-24 15:32:37,300 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=Magisitus
+2025-03-24 15:32:37,301 - INFO - Fuzzy API match for 'Magisitus Chorozo': 'Magistus Chorozo' (similarity: 0.96)
+2025-03-24 15:32:37,301 - INFO - Corrected: 'Magisitus Chorozo' -> 'Magistus Chorozo'
+2025-03-24 15:32:37,301 - INFO - Processing card 63/66: Ib the World Chalice Justiciar
+2025-03-24 15:32:37,348 - INFO - Found exact match for: Cross-Sheep
+2025-03-24 15:32:37,348 - INFO - Processing card 64/66: Rciela Sinister Soul of the White Forest
+2025-03-24 15:32:37,620 - INFO - Found exact match for: Fiendsmith Requiem
+2025-03-24 15:32:37,621 - INFO - Processing card 65/66: Power Tool Dragon
+2025-03-24 15:32:37,655 - INFO - Fuzzy API match for 'Harpies' Feather Storm': 'Harpie's Feather Storm' (similarity: 0.94)
+2025-03-24 15:32:37,655 - INFO - Corrected: 'Harpies' Feather Storm' -> 'Harpie's Feather Storm'
+2025-03-24 15:32:37,655 - INFO - Processing card 66/66: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-24 15:32:37,658 - INFO - Found exact match for: Ib the World Chalice Justiciar
+2025-03-24 15:32:37,669 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Sequence
+2025-03-24 15:32:37,684 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Desirae
+2025-03-24 15:32:37,735 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Agnumday
+2025-03-24 15:32:37,736 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Rciela%20Sinister%20Soul%20of%20the%20White%20Forest
+2025-03-24 15:32:37,779 - INFO - Fuzzy API match for 'Snake-eye Doomed Dragon': 'Snake-Eyes Doomed Dragon' (similarity: 0.97)
+2025-03-24 15:32:37,779 - INFO - Corrected: 'Snake-eye Doomed Dragon' -> 'Snake-Eyes Doomed Dragon'
+2025-03-24 15:32:37,875 - INFO - Found exact match for: Power Tool Dragon
+2025-03-24 15:32:38,004 - INFO - Found exact match for: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-24 15:32:38,129 - INFO - Fuzzy API match for 'Fiendsmith Desirae': 'Fiendsmith's Desirae' (similarity: 0.93)
+2025-03-24 15:32:38,131 - INFO - Corrected: 'Fiendsmith Desirae' -> 'Fiendsmith's Desirae'
+2025-03-24 15:32:38,140 - INFO - Fuzzy API match for 'Fiendsmith Sequence': 'Fiendsmith's Sequence' (similarity: 0.94)
+2025-03-24 15:32:38,141 - INFO - Corrected: 'Fiendsmith Sequence' -> 'Fiendsmith's Sequence'
+2025-03-24 15:32:38,226 - INFO - Fuzzy API match for 'Fiendsmith Agnumday': 'Fiendsmith's Agnumday' (similarity: 0.94)
+2025-03-24 15:32:38,228 - INFO - Corrected: 'Fiendsmith Agnumday' -> 'Fiendsmith's Agnumday'
+2025-03-24 15:32:38,870 - INFO - Fuzzy API match for 'Rciela Sinister Soul of the White Forest': 'Rciela, Sinister Soul of the White Forest' (similarity: 0.98)
+2025-03-24 15:32:38,870 - INFO - Corrected: 'Rciela Sinister Soul of the White Forest' -> 'Rciela, Sinister Soul of the White Forest'
+2025-03-24 15:32:38,872 - INFO - Database saved to: yugioh_card_database.md
+2025-03-24 15:32:38,873 - INFO - Database generation completed successfully.
+2025-03-24 15:36:38,723 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:36:38,752 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.176:5000
+2025-03-24 15:36:38,754 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 15:36:38,755 - INFO -  * Restarting with stat
+2025-03-24 15:36:39,026 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:36:39,037 - WARNING -  * Debugger is active!
+2025-03-24 15:36:39,040 - INFO -  * Debugger PIN: 805-930-223
+2025-03-24 15:37:12,111 - INFO - 127.0.0.1 - - [24/Mar/2025 15:37:12] "GET / HTTP/1.1" 200 -
+2025-03-24 15:37:12,463 - INFO - 127.0.0.1 - - [24/Mar/2025 15:37:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 15:37:52,690 - INFO - 192.168.12.176 - - [24/Mar/2025 15:37:52] "GET / HTTP/1.1" 200 -
+2025-03-24 15:37:53,049 - INFO - 192.168.12.176 - - [24/Mar/2025 15:37:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-24 15:38:38,662 - INFO - 192.168.12.176 - - [24/Mar/2025 15:38:38] "GET / HTTP/1.1" 200 -
+2025-03-24 15:41:31,083 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:41:31,104 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.176:5000
+2025-03-24 15:41:31,105 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 15:41:31,106 - INFO -  * Restarting with stat
+2025-03-24 15:41:31,379 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:41:31,393 - WARNING -  * Debugger is active!
+2025-03-24 15:41:31,396 - INFO -  * Debugger PIN: 805-930-223
+2025-03-24 15:41:40,219 - INFO - 127.0.0.1 - - [24/Mar/2025 15:41:40] "GET / HTTP/1.1" 200 -
+2025-03-24 15:42:36,710 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:36] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:37,705 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:37] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:38,095 - INFO - Loaded 13611 cards into search engine
+2025-03-24 15:42:38,095 - WARNING - Error loading official rulings: [Errno 2] No such file or directory: 'konami_rulings.json'
+2025-03-24 15:42:38,095 - INFO - Generating database for 45 cards
+2025-03-24 15:42:38,096 - INFO - Processing cards using 8 threads
+2025-03-24 15:42:38,096 - INFO - Processing card 1/45: // Yu-Gi-Oh! Deck List
+2025-03-24 15:42:38,097 - INFO - Processing card 2/45: == MONSTER CARDS (70 cards) ==
+2025-03-24 15:42:38,097 - INFO - Processing card 3/45: 2 Allure of Darkness
+2025-03-24 15:42:38,098 - INFO - Processing card 4/45: 1 Knightmare Phoenix
+2025-03-24 15:42:38,098 - INFO - Processing card 5/45: 1 A Bao A Qu, the Lightless Shadow
+2025-03-24 15:42:38,099 - INFO - Processing card 6/45: 1 Firewall Dragon
+2025-03-24 15:42:38,099 - INFO - Processing card 7/45: 3 Bystial Druiswurm
+2025-03-24 15:42:38,099 - INFO - Processing card 8/45: 1 Haggard Lizardose
+2025-03-24 15:42:38,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:38] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:38,768 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=//%20Yu-Gi-Oh%21%20Deck%20List
+2025-03-24 15:42:38,965 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=%3D%3D%20MONSTER%20CARDS%20%2870%20cards%29%20%3D%3D
+2025-03-24 15:42:39,017 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Allure%20of%20Darkness
+2025-03-24 15:42:39,083 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Bystial%20Druiswurm
+2025-03-24 15:42:39,208 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Firewall%20Dragon
+2025-03-24 15:42:39,283 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20A%20Bao%20A%20Qu%2C%20the%20Lightless%20Shadow
+2025-03-24 15:42:39,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:39] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:40,584 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Bys
+2025-03-24 15:42:40,627 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20A%20B
+2025-03-24 15:42:40,704 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:40] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:41,237 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=//
+2025-03-24 15:42:41,238 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Haggard%20Lizardose
+2025-03-24 15:42:41,473 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Knightmare%20Phoenix
+2025-03-24 15:42:41,705 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:41] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:41,722 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=//%20Yu
+2025-03-24 15:42:42,541 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=%3D%3D%20MO
+2025-03-24 15:42:42,746 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:42] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:42,864 - ERROR - Error processing card '// Yu-Gi-Oh! Deck List': '<' not supported between instances of 'dict' and 'dict'
+2025-03-24 15:42:42,865 - INFO - Processing card 9/45: 1 Artifact Sanctum
+2025-03-24 15:42:43,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:43] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:43,947 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Fir
+2025-03-24 15:42:43,953 - INFO - Fuzzy API match for '1 Firewall Dragon': 'Firewall Dragon' (similarity: 0.92)
+2025-03-24 15:42:43,954 - INFO - Corrected: '1 Firewall Dragon' -> 'Firewall Dragon'
+2025-03-24 15:42:43,954 - INFO - Processing card 10/45: 1 Lightning Storm
+2025-03-24 15:42:44,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:44] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:44,923 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Lightning%20Storm
+2025-03-24 15:42:45,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:45] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:45,771 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=%3D%3D
+2025-03-24 15:42:45,988 - INFO - Fuzzy API match for '1 A Bao A Qu, the Lightless Shadow': 'A Bao A Qu, the Lightless Shadow' (similarity: 0.96)
+2025-03-24 15:42:46,035 - INFO - Corrected: '1 A Bao A Qu, the Lightless Shadow' -> 'A Bao A Qu, the Lightless Shadow'
+2025-03-24 15:42:46,068 - INFO - Processing card 11/45: 3 Ash Blossom & Joyous Spring
+2025-03-24 15:42:46,580 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Hag
+2025-03-24 15:42:46,643 - INFO - Fuzzy API match for '1 Haggard Lizardose': 'Haggard Lizardose' (similarity: 0.93)
+2025-03-24 15:42:46,658 - INFO - Fuzzy API match for '3 Bystial Druiswurm': 'Bystial Druiswurm' (similarity: 0.93)
+2025-03-24 15:42:46,674 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Artifact%20Sanctum
+2025-03-24 15:42:46,704 - INFO - Corrected: '1 Haggard Lizardose' -> 'Haggard Lizardose'
+2025-03-24 15:42:46,736 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:46] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:46,799 - INFO - Corrected: '3 Bystial Druiswurm' -> 'Bystial Druiswurm'
+2025-03-24 15:42:46,831 - INFO - Processing card 12/45: 1 Harpie's Feather Duster
+2025-03-24 15:42:46,957 - INFO - Processing card 13/45: 1 Maliss C GWC-06
+2025-03-24 15:42:46,991 - ERROR - Error processing card '== MONSTER CARDS (70 cards) ==': '<' not supported between instances of 'dict' and 'dict'
+2025-03-24 15:42:46,993 - INFO - Processing card 14/45: 1 Maliss Q Hearts Crypter
+2025-03-24 15:42:47,011 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Kni
+2025-03-24 15:42:47,011 - INFO - Fuzzy API match for '1 Knightmare Phoenix': 'Knightmare Phoenix' (similarity: 0.93)
+2025-03-24 15:42:47,013 - INFO - Corrected: '1 Knightmare Phoenix' -> 'Knightmare Phoenix'
+2025-03-24 15:42:47,013 - INFO - Processing card 15/45: 1 Called by the Grave
+2025-03-24 15:42:47,335 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Called%20by%20the%20Grave
+2025-03-24 15:42:47,481 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20C%20GWC-06
+2025-03-24 15:42:47,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:47] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:48,279 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Ash%20Blossom%20%26%20Joyous%20Spring
+2025-03-24 15:42:48,540 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Harpie%2527s%20Feather%20Duster
+2025-03-24 15:42:48,545 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Lig
+2025-03-24 15:42:48,552 - INFO - Fuzzy API match for '1 Lightning Storm': 'Lightning Storm' (similarity: 0.92)
+2025-03-24 15:42:48,553 - INFO - Corrected: '1 Lightning Storm' -> 'Lightning Storm'
+2025-03-24 15:42:48,553 - INFO - Processing card 16/45: 1 Linguriboh
+2025-03-24 15:42:48,577 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20Q%20Hearts%20Crypter
+2025-03-24 15:42:48,704 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:48] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:49,049 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Harpie
+2025-03-24 15:42:49,147 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:42:49,235 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Cal
+2025-03-24 15:42:49,243 - INFO - Fuzzy API match for '1 Called by the Grave': 'Called by the Grave' (similarity: 0.94)
+2025-03-24 15:42:49,244 - INFO - Corrected: '1 Called by the Grave' -> 'Called by the Grave'
+2025-03-24 15:42:49,244 - INFO - Processing card 17/45: 1 Triple Tactics Talent
+2025-03-24 15:42:49,286 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20All
+2025-03-24 15:42:49,287 - INFO - Fuzzy API match for '2 Allure of Darkness': 'Allure of Darkness' (similarity: 0.93)
+2025-03-24 15:42:49,287 - INFO - Corrected: '2 Allure of Darkness' -> 'Allure of Darkness'
+2025-03-24 15:42:49,287 - INFO - Processing card 18/45: 1 S:P Little Knight
+2025-03-24 15:42:49,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:49] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:49,740 - INFO - Fuzzy API match for '1 Maliss C GWC-06': 'Maliss C GWC-06' (similarity: 0.92)
+2025-03-24 15:42:49,741 - INFO - Corrected: '1 Maliss C GWC-06' -> 'Maliss C GWC-06'
+2025-03-24 15:42:49,741 - INFO - Processing card 19/45: 1 Link Decoder
+2025-03-24 15:42:49,834 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20S%3AP%20Little%20Knight
+2025-03-24 15:42:49,882 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Linguriboh
+2025-03-24 15:42:50,228 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Link%20Decoder
+2025-03-24 15:42:50,390 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Art
+2025-03-24 15:42:50,391 - INFO - Fuzzy API match for '1 Artifact Sanctum': 'Artifact Sanctum' (similarity: 0.93)
+2025-03-24 15:42:50,392 - INFO - Corrected: '1 Artifact Sanctum' -> 'Artifact Sanctum'
+2025-03-24 15:42:50,392 - INFO - Processing card 20/45: 3 Maliss P Dormouse
+2025-03-24 15:42:50,442 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Triple%20Tactics%20Talent
+2025-03-24 15:42:50,559 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:42:50,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:50] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:50,735 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Lin
+2025-03-24 15:42:50,767 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Ash
+2025-03-24 15:42:50,768 - INFO - Fuzzy API match for '3 Ash Blossom & Joyous Spring': 'Ash Blossom & Joyous Spring' (similarity: 0.95)
+2025-03-24 15:42:50,769 - INFO - Corrected: '3 Ash Blossom & Joyous Spring' -> 'Ash Blossom & Joyous Spring'
+2025-03-24 15:42:50,769 - INFO - Processing card 21/45: 1 Bystial Magnamhut
+2025-03-24 15:42:50,790 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Maliss%20P%20Dormouse
+2025-03-24 15:42:51,027 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Har
+2025-03-24 15:42:51,028 - INFO - Fuzzy API match for '1 Harpie's Feather Duster': 'Harpie's Feather Duster' (similarity: 0.95)
+2025-03-24 15:42:51,028 - INFO - Corrected: '1 Harpie's Feather Duster' -> 'Harpie's Feather Duster'
+2025-03-24 15:42:51,028 - INFO - Processing card 22/45: 3 Artifact Lancea
+2025-03-24 15:42:51,406 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Tri
+2025-03-24 15:42:51,407 - INFO - Fuzzy API match for '1 Triple Tactics Talent': 'Triple Tactics Talent' (similarity: 0.94)
+2025-03-24 15:42:51,407 - INFO - Corrected: '1 Triple Tactics Talent' -> 'Triple Tactics Talent'
+2025-03-24 15:42:51,407 - INFO - Processing card 23/45: 1 Ryzeal Detonator
+2025-03-24 15:42:51,535 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Lin
+2025-03-24 15:42:51,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:51] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:52,059 - INFO - Fuzzy API match for '1 Linguriboh': 'Linguriboh' (similarity: 0.89)
+2025-03-24 15:42:52,060 - INFO - Corrected: '1 Linguriboh' -> 'Linguriboh'
+2025-03-24 15:42:52,060 - INFO - Processing card 24/45: 2 Triple Tactics Thrust
+2025-03-24 15:42:52,196 - INFO - Fuzzy API match for '1 Link Decoder': 'Link Decoder' (similarity: 0.90)
+2025-03-24 15:42:52,196 - INFO - Corrected: '1 Link Decoder' -> 'Link Decoder'
+2025-03-24 15:42:52,196 - INFO - Processing card 25/45: 3 Dominus Impulse
+2025-03-24 15:42:52,239 - INFO - Fuzzy API match for '1 Maliss Q Hearts Crypter': 'Maliss Q Hearts Crypter' (similarity: 0.95)
+2025-03-24 15:42:52,240 - INFO - Corrected: '1 Maliss Q Hearts Crypter' -> 'Maliss Q Hearts Crypter'
+2025-03-24 15:42:52,240 - INFO - Processing card 26/45: 2 Solemn Strike
+2025-03-24 15:42:52,363 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Bystial%20Magnamhut
+2025-03-24 15:42:52,474 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20S%3AP
+2025-03-24 15:42:52,475 - INFO - Fuzzy API match for '1 S:P Little Knight': 'S:P Little Knight' (similarity: 0.93)
+2025-03-24 15:42:52,475 - INFO - Corrected: '1 S:P Little Knight' -> 'S:P Little Knight'
+2025-03-24 15:42:52,475 - INFO - Processing card 27/45: 3 Mulcharmy Fuwalos
+2025-03-24 15:42:52,580 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Triple%20Tactics%20Thrust
+2025-03-24 15:42:52,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:52] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:52,714 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Artifact%20Lancea
+2025-03-24 15:42:52,796 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Ryzeal%20Detonator
+2025-03-24 15:42:53,257 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Dominus%20Impulse
+2025-03-24 15:42:53,388 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Solemn%20Strike
+2025-03-24 15:42:53,601 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Mulcharmy%20Fuwalos
+2025-03-24 15:42:53,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:53] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:53,769 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mal
+2025-03-24 15:42:53,775 - INFO - Fuzzy API match for '3 Maliss P Dormouse': 'Maliss P Dormouse' (similarity: 0.93)
+2025-03-24 15:42:53,776 - INFO - Corrected: '3 Maliss P Dormouse' -> 'Maliss P Dormouse'
+2025-03-24 15:42:53,776 - INFO - Processing card 28/45: 1 Maliss C TB-11
+2025-03-24 15:42:53,781 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Art
+2025-03-24 15:42:53,801 - INFO - Fuzzy API match for '3 Artifact Lancea': 'Artifact Lancea' (similarity: 0.92)
+2025-03-24 15:42:53,801 - INFO - Corrected: '3 Artifact Lancea' -> 'Artifact Lancea'
+2025-03-24 15:42:53,802 - INFO - Processing card 29/45: 1 Splash Mage
+2025-03-24 15:42:53,888 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Tri
+2025-03-24 15:42:53,890 - INFO - Fuzzy API match for '2 Triple Tactics Thrust': 'Triple Tactics Thrust' (similarity: 0.94)
+2025-03-24 15:42:53,890 - INFO - Corrected: '2 Triple Tactics Thrust' -> 'Triple Tactics Thrust'
+2025-03-24 15:42:53,891 - INFO - Processing card 30/45: 1 Bystial Saronir
+2025-03-24 15:42:54,152 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Splash%20Mage
+2025-03-24 15:42:54,451 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Bystial%20Saronir
+2025-03-24 15:42:54,607 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Ryz
+2025-03-24 15:42:54,608 - INFO - Fuzzy API match for '1 Ryzeal Detonator': 'Ryzeal Detonator' (similarity: 0.93)
+2025-03-24 15:42:54,608 - INFO - Corrected: '1 Ryzeal Detonator' -> 'Ryzeal Detonator'
+2025-03-24 15:42:54,608 - INFO - Processing card 31/45: 3 Metaltronus
+2025-03-24 15:42:54,704 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:54] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:54,781 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Sol
+2025-03-24 15:42:55,013 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Dom
+2025-03-24 15:42:55,020 - INFO - Fuzzy API match for '3 Dominus Impulse': 'Dominus Impulse' (similarity: 0.92)
+2025-03-24 15:42:55,020 - INFO - Corrected: '3 Dominus Impulse' -> 'Dominus Impulse'
+2025-03-24 15:42:55,021 - INFO - Processing card 32/45: 1 Knightmare Gryphon
+2025-03-24 15:42:55,056 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20C%20TB-11
+2025-03-24 15:42:55,326 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Bys
+2025-03-24 15:42:55,326 - INFO - Fuzzy API match for '1 Bystial Magnamhut': 'Bystial Magnamhut' (similarity: 0.93)
+2025-03-24 15:42:55,326 - INFO - Corrected: '1 Bystial Magnamhut' -> 'Bystial Magnamhut'
+2025-03-24 15:42:55,326 - INFO - Processing card 33/45: 1 Maliss Q Red Ransom
+2025-03-24 15:42:55,704 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:55] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:55,834 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20Q%20Red%20Ransom
+2025-03-24 15:42:55,957 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:42:55,976 - INFO - Fuzzy API match for '1 Maliss C TB-11': 'Maliss C TB-11' (similarity: 0.92)
+2025-03-24 15:42:55,976 - INFO - Corrected: '1 Maliss C TB-11' -> 'Maliss C TB-11'
+2025-03-24 15:42:55,976 - INFO - Processing card 34/45: 3 Maliss in Underground
+2025-03-24 15:42:56,193 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Metaltronus
+2025-03-24 15:42:56,270 - INFO - Fuzzy API match for '2 Solemn Strike': 'Solemn Strike' (similarity: 0.91)
+2025-03-24 15:42:56,272 - INFO - Corrected: '2 Solemn Strike' -> 'Solemn Strike'
+2025-03-24 15:42:56,272 - INFO - Processing card 35/45: 3 Maliss P White Rabbit
+2025-03-24 15:42:56,376 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Knightmare%20Gryphon
+2025-03-24 15:42:56,551 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mul
+2025-03-24 15:42:56,551 - INFO - Fuzzy API match for '3 Mulcharmy Fuwalos': 'Mulcharmy Fuwalos' (similarity: 0.93)
+2025-03-24 15:42:56,552 - INFO - Corrected: '3 Mulcharmy Fuwalos' -> 'Mulcharmy Fuwalos'
+2025-03-24 15:42:56,552 - INFO - Processing card 36/45: 2 Bystial Baldrake
+2025-03-24 15:42:56,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:56] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:56,744 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Spl
+2025-03-24 15:42:56,751 - INFO - Fuzzy API match for '1 Splash Mage': 'Splash Mage' (similarity: 0.90)
+2025-03-24 15:42:56,751 - INFO - Corrected: '1 Splash Mage' -> 'Splash Mage'
+2025-03-24 15:42:56,751 - INFO - Processing card 37/45: 1 Gold Sarcophagus
+2025-03-24 15:42:56,808 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:42:56,818 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Maliss%20in%20Underground
+2025-03-24 15:42:56,820 - INFO - Fuzzy API match for '1 Maliss Q Red Ransom': 'Maliss Q Red Ransom' (similarity: 0.94)
+2025-03-24 15:42:56,820 - INFO - Corrected: '1 Maliss Q Red Ransom' -> 'Maliss Q Red Ransom'
+2025-03-24 15:42:56,820 - INFO - Processing card 38/45: 1 Dimensional Barrier
+2025-03-24 15:42:57,104 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Bys
+2025-03-24 15:42:57,105 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Maliss%20P%20White%20Rabbit
+2025-03-24 15:42:57,105 - INFO - Fuzzy API match for '1 Bystial Saronir': 'Bystial Saronir' (similarity: 0.92)
+2025-03-24 15:42:57,105 - INFO - Corrected: '1 Bystial Saronir' -> 'Bystial Saronir'
+2025-03-24 15:42:57,106 - INFO - Processing card 39/45: 1 Accesscode Talker
+2025-03-24 15:42:57,213 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Dimensional%20Barrier
+2025-03-24 15:42:57,311 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Kni
+2025-03-24 15:42:57,311 - INFO - Fuzzy API match for '1 Knightmare Gryphon': 'Knightmare Gryphon' (similarity: 0.93)
+2025-03-24 15:42:57,312 - INFO - Corrected: '1 Knightmare Gryphon' -> 'Knightmare Gryphon'
+2025-03-24 15:42:57,312 - INFO - Processing card 40/45: 3 Dimension Shifter
+2025-03-24 15:42:57,392 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Bystial%20Baldrake
+2025-03-24 15:42:57,443 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Gold%20Sarcophagus
+2025-03-24 15:42:57,704 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:57] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:57,873 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mal
+2025-03-24 15:42:57,880 - INFO - Fuzzy API match for '3 Maliss P White Rabbit': 'Maliss P White Rabbit' (similarity: 0.94)
+2025-03-24 15:42:57,882 - INFO - Corrected: '3 Maliss P White Rabbit' -> 'Maliss P White Rabbit'
+2025-03-24 15:42:57,882 - INFO - Processing card 41/45: 1 Super Starslayer TY-PHON - Sky Crisis
+2025-03-24 15:42:57,914 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Accesscode%20Talker
+2025-03-24 15:42:58,097 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Met
+2025-03-24 15:42:58,097 - INFO - Fuzzy API match for '3 Metaltronus': 'Metaltronus' (similarity: 0.90)
+2025-03-24 15:42:58,099 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Dimension%20Shifter
+2025-03-24 15:42:58,099 - INFO - Corrected: '3 Metaltronus' -> 'Metaltronus'
+2025-03-24 15:42:58,099 - INFO - Processing card 42/45: 3 Droll & Lock Bird
+2025-03-24 15:42:58,421 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Bys
+2025-03-24 15:42:58,576 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mal
+2025-03-24 15:42:58,583 - INFO - Fuzzy API match for '3 Maliss in Underground': 'Maliss in Underground' (similarity: 0.94)
+2025-03-24 15:42:58,583 - INFO - Corrected: '3 Maliss in Underground' -> 'Maliss in Underground'
+2025-03-24 15:42:58,583 - INFO - Processing card 43/45: 1 Maliss C MTP-07
+2025-03-24 15:42:58,647 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Super%20Starslayer%20TY-PHON%20-%20Sky%20Crisis
+2025-03-24 15:42:58,703 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:58] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:58,782 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Acc
+2025-03-24 15:42:58,865 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Droll%20%26%20Lock%20Bird
+2025-03-24 15:42:58,984 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Dim
+2025-03-24 15:42:59,042 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Dim
+2025-03-24 15:42:59,052 - INFO - Fuzzy API match for '1 Dimensional Barrier': 'Dimensional Barrier' (similarity: 0.94)
+2025-03-24 15:42:59,054 - INFO - Corrected: '1 Dimensional Barrier' -> 'Dimensional Barrier'
+2025-03-24 15:42:59,054 - INFO - Processing card 44/45: 1 Maliss Q White Binder
+2025-03-24 15:42:59,228 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20C%20MTP-07
+2025-03-24 15:42:59,547 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Gol
+2025-03-24 15:42:59,553 - INFO - Fuzzy API match for '1 Gold Sarcophagus': 'Gold Sarcophagus' (similarity: 0.93)
+2025-03-24 15:42:59,555 - INFO - Corrected: '1 Gold Sarcophagus' -> 'Gold Sarcophagus'
+2025-03-24 15:42:59,555 - INFO - Processing card 45/45: 2 Maliss P Chessy Cat
+2025-03-24 15:42:59,656 - INFO - Fuzzy API match for '1 Accesscode Talker': 'Accesscode Talker' (similarity: 0.93)
+2025-03-24 15:42:59,657 - INFO - Corrected: '1 Accesscode Talker' -> 'Accesscode Talker'
+2025-03-24 15:42:59,704 - INFO - 127.0.0.1 - - [24/Mar/2025 15:42:59] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:42:59,715 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20Q%20White%20Binder
+2025-03-24 15:42:59,717 - INFO - Fuzzy API match for '2 Bystial Baldrake': 'Bystial Baldrake' (similarity: 0.93)
+2025-03-24 15:42:59,717 - INFO - Corrected: '2 Bystial Baldrake' -> 'Bystial Baldrake'
+2025-03-24 15:42:59,780 - INFO - Fuzzy API match for '3 Dimension Shifter': 'Dimension Shifter' (similarity: 0.93)
+2025-03-24 15:42:59,781 - INFO - Corrected: '3 Dimension Shifter' -> 'Dimension Shifter'
+2025-03-24 15:43:00,064 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:43:00,073 - INFO - Fuzzy API match for '1 Maliss C MTP-07': 'Maliss C MTP-07' (similarity: 0.92)
+2025-03-24 15:43:00,074 - INFO - Corrected: '1 Maliss C MTP-07' -> 'Maliss C MTP-07'
+2025-03-24 15:43:00,109 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Sup
+2025-03-24 15:43:00,118 - INFO - Fuzzy API match for '1 Super Starslayer TY-PHON - Sky Crisis': 'Super Starslayer TY-PHON - Sky Crisis' (similarity: 0.97)
+2025-03-24 15:43:00,119 - INFO - Corrected: '1 Super Starslayer TY-PHON - Sky Crisis' -> 'Super Starslayer TY-PHON - Sky Crisis'
+2025-03-24 15:43:00,176 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Maliss%20P%20Chessy%20Cat
+2025-03-24 15:43:00,311 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Dro
+2025-03-24 15:43:00,316 - INFO - Fuzzy API match for '3 Droll & Lock Bird': 'Droll & Lock Bird' (similarity: 0.93)
+2025-03-24 15:43:00,317 - INFO - Corrected: '3 Droll & Lock Bird' -> 'Droll & Lock Bird'
+2025-03-24 15:43:00,623 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:43:00,631 - INFO - Fuzzy API match for '1 Maliss Q White Binder': 'Maliss Q White Binder' (similarity: 0.94)
+2025-03-24 15:43:00,632 - INFO - Corrected: '1 Maliss Q White Binder' -> 'Maliss Q White Binder'
+2025-03-24 15:43:00,704 - INFO - 127.0.0.1 - - [24/Mar/2025 15:43:00] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:43:00,757 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Mal
+2025-03-24 15:43:00,759 - INFO - Fuzzy API match for '2 Maliss P Chessy Cat': 'Maliss P Chessy Cat' (similarity: 0.94)
+2025-03-24 15:43:00,759 - INFO - Corrected: '2 Maliss P Chessy Cat' -> 'Maliss P Chessy Cat'
+2025-03-24 15:43:00,761 - INFO - Database saved to: C:\Users\Xerod\AppData\Local\Temp\tmpqwzony54.txt
+2025-03-24 15:43:00,762 - INFO - 127.0.0.1 - - [24/Mar/2025 15:43:00] "[32mPOST /generate HTTP/1.1[0m" 302 -
+2025-03-24 15:43:00,783 - INFO - 127.0.0.1 - - [24/Mar/2025 15:43:00] "GET /results HTTP/1.1" 200 -
+2025-03-24 15:43:07,430 - INFO - 127.0.0.1 - - [24/Mar/2025 15:43:07] "GET /download/1/corrections HTTP/1.1" 200 -
+2025-03-24 15:43:47,042 - INFO - 127.0.0.1 - - [24/Mar/2025 15:43:47] "GET /download/1/database HTTP/1.1" 200 -
+2025-03-24 15:47:01,725 - INFO - 127.0.0.1 - - [24/Mar/2025 15:47:01] "[33mGET /analysis HTTP/1.1[0m" 404 -
+2025-03-24 15:48:48,134 - INFO - 127.0.0.1 - - [24/Mar/2025 15:48:48] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:48:48,441 - INFO - Loaded 13611 cards into search engine
+2025-03-24 15:48:48,442 - WARNING - Error loading official rulings: [Errno 2] No such file or directory: 'konami_rulings.json'
+2025-03-24 15:48:48,443 - INFO - Generating database for 45 cards
+2025-03-24 15:48:48,443 - INFO - Processing cards using 8 threads
+2025-03-24 15:48:48,444 - INFO - Processing card 1/45: // Yu-Gi-Oh! Deck List
+2025-03-24 15:48:48,444 - INFO - Processing card 2/45: == MONSTER CARDS (70 cards) ==
+2025-03-24 15:48:48,444 - INFO - Processing card 3/45: 2 Allure of Darkness
+2025-03-24 15:48:48,445 - INFO - Processing card 4/45: 1 Knightmare Phoenix
+2025-03-24 15:48:48,446 - INFO - Processing card 5/45: 1 A Bao A Qu, the Lightless Shadow
+2025-03-24 15:48:48,446 - INFO - Processing card 6/45: 1 Firewall Dragon
+2025-03-24 15:48:48,447 - INFO - Processing card 7/45: 3 Bystial Druiswurm
+2025-03-24 15:48:48,447 - INFO - Processing card 8/45: 1 Haggard Lizardose
+2025-03-24 15:48:48,899 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20A%20Bao%20A%20Qu%2C%20the%20Lightless%20Shadow
+2025-03-24 15:48:48,998 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Allure%20of%20Darkness
+2025-03-24 15:48:48,999 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=%3D%3D%20MONSTER%20CARDS%20%2870%20cards%29%20%3D%3D
+2025-03-24 15:48:49,150 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Knightmare%20Phoenix
+2025-03-24 15:48:49,175 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Firewall%20Dragon
+2025-03-24 15:48:49,218 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Haggard%20Lizardose
+2025-03-24 15:48:49,240 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Bystial%20Druiswurm
+2025-03-24 15:48:49,306 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=//%20Yu-Gi-Oh%21%20Deck%20List
+2025-03-24 15:48:49,973 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=//
+2025-03-24 15:48:50,026 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20A%20B
+2025-03-24 15:48:50,047 - INFO - Fuzzy API match for '1 A Bao A Qu, the Lightless Shadow': 'A Bao A Qu, the Lightless Shadow' (similarity: 0.96)
+2025-03-24 15:48:50,049 - INFO - Corrected: '1 A Bao A Qu, the Lightless Shadow' -> 'A Bao A Qu, the Lightless Shadow'
+2025-03-24 15:48:50,049 - INFO - Processing card 9/45: 1 Artifact Sanctum
+2025-03-24 15:48:50,189 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Kni
+2025-03-24 15:48:50,190 - INFO - Fuzzy API match for '1 Knightmare Phoenix': 'Knightmare Phoenix' (similarity: 0.93)
+2025-03-24 15:48:50,190 - INFO - Corrected: '1 Knightmare Phoenix' -> 'Knightmare Phoenix'
+2025-03-24 15:48:50,190 - INFO - Processing card 10/45: 1 Lightning Storm
+2025-03-24 15:48:50,232 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=%3D%3D%20MO
+2025-03-24 15:48:50,381 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Bys
+2025-03-24 15:48:50,398 - INFO - Fuzzy API match for '3 Bystial Druiswurm': 'Bystial Druiswurm' (similarity: 0.93)
+2025-03-24 15:48:50,400 - INFO - Corrected: '3 Bystial Druiswurm' -> 'Bystial Druiswurm'
+2025-03-24 15:48:50,400 - INFO - Processing card 11/45: 3 Ash Blossom & Joyous Spring
+2025-03-24 15:48:50,542 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20All
+2025-03-24 15:48:50,542 - INFO - Fuzzy API match for '2 Allure of Darkness': 'Allure of Darkness' (similarity: 0.93)
+2025-03-24 15:48:50,543 - INFO - Corrected: '2 Allure of Darkness' -> 'Allure of Darkness'
+2025-03-24 15:48:50,543 - INFO - Processing card 12/45: 1 Harpie's Feather Duster
+2025-03-24 15:48:50,658 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Hag
+2025-03-24 15:48:50,659 - INFO - Fuzzy API match for '1 Haggard Lizardose': 'Haggard Lizardose' (similarity: 0.93)
+2025-03-24 15:48:50,659 - INFO - Corrected: '1 Haggard Lizardose' -> 'Haggard Lizardose'
+2025-03-24 15:48:50,659 - INFO - Processing card 13/45: 1 Maliss C GWC-06
+2025-03-24 15:48:50,806 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Fir
+2025-03-24 15:48:50,856 - INFO - Fuzzy API match for '1 Firewall Dragon': 'Firewall Dragon' (similarity: 0.92)
+2025-03-24 15:48:50,856 - INFO - Corrected: '1 Firewall Dragon' -> 'Firewall Dragon'
+2025-03-24 15:48:50,858 - INFO - Processing card 14/45: 1 Maliss Q Hearts Crypter
+2025-03-24 15:48:51,053 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Lightning%20Storm
+2025-03-24 15:48:51,108 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Ash%20Blossom%20%26%20Joyous%20Spring
+2025-03-24 15:48:51,264 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20Q%20Hearts%20Crypter
+2025-03-24 15:48:51,429 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=%3D%3D
+2025-03-24 15:48:51,711 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=//%20Yu
+2025-03-24 15:48:51,962 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Lig
+2025-03-24 15:48:52,056 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Artifact%20Sanctum
+2025-03-24 15:48:52,166 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Harpie%2527s%20Feather%20Duster
+2025-03-24 15:48:52,326 - INFO - 127.0.0.1 - - [24/Mar/2025 15:48:52] "GET / HTTP/1.1" 200 -
+2025-03-24 15:48:52,360 - INFO - Fuzzy API match for '1 Lightning Storm': 'Lightning Storm' (similarity: 0.92)
+2025-03-24 15:48:52,403 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20C%20GWC-06
+2025-03-24 15:48:52,434 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:48:52,510 - INFO - Corrected: '1 Lightning Storm' -> 'Lightning Storm'
+2025-03-24 15:48:52,906 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Ash
+2025-03-24 15:48:53,000 - INFO - Processing card 15/45: 1 Called by the Grave
+2025-03-24 15:48:53,126 - INFO - Fuzzy API match for '3 Ash Blossom & Joyous Spring': 'Ash Blossom & Joyous Spring' (similarity: 0.95)
+2025-03-24 15:48:53,315 - INFO - Fuzzy API match for '1 Maliss Q Hearts Crypter': 'Maliss Q Hearts Crypter' (similarity: 0.95)
+2025-03-24 15:48:53,328 - ERROR - Error processing card '== MONSTER CARDS (70 cards) ==': '<' not supported between instances of 'dict' and 'dict'
+2025-03-24 15:48:53,363 - INFO - Corrected: '3 Ash Blossom & Joyous Spring' -> 'Ash Blossom & Joyous Spring'
+2025-03-24 15:48:53,440 - INFO - Corrected: '1 Maliss Q Hearts Crypter' -> 'Maliss Q Hearts Crypter'
+2025-03-24 15:48:53,488 - INFO - Processing card 16/45: 1 Linguriboh
+2025-03-24 15:48:53,488 - INFO - Processing card 17/45: 1 Triple Tactics Talent
+2025-03-24 15:48:53,567 - INFO - Processing card 18/45: 1 S:P Little Knight
+2025-03-24 15:48:53,585 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Harpie
+2025-03-24 15:48:53,781 - ERROR - Error processing card '// Yu-Gi-Oh! Deck List': '<' not supported between instances of 'dict' and 'dict'
+2025-03-24 15:48:53,782 - INFO - Processing card 19/45: 1 Link Decoder
+2025-03-24 15:48:53,821 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Called%20by%20the%20Grave
+2025-03-24 15:48:53,877 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Art
+2025-03-24 15:48:53,878 - INFO - Fuzzy API match for '1 Artifact Sanctum': 'Artifact Sanctum' (similarity: 0.93)
+2025-03-24 15:48:53,878 - INFO - Corrected: '1 Artifact Sanctum' -> 'Artifact Sanctum'
+2025-03-24 15:48:53,878 - INFO - Processing card 20/45: 3 Maliss P Dormouse
+2025-03-24 15:48:53,886 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:48:53,893 - INFO - Fuzzy API match for '1 Maliss C GWC-06': 'Maliss C GWC-06' (similarity: 0.92)
+2025-03-24 15:48:53,893 - INFO - Corrected: '1 Maliss C GWC-06' -> 'Maliss C GWC-06'
+2025-03-24 15:48:53,894 - INFO - Processing card 21/45: 1 Bystial Magnamhut
+2025-03-24 15:48:53,998 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Linguriboh
+2025-03-24 15:48:54,014 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Triple%20Tactics%20Talent
+2025-03-24 15:48:54,202 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Link%20Decoder
+2025-03-24 15:48:54,302 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20S%3AP%20Little%20Knight
+2025-03-24 15:48:54,308 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Har
+2025-03-24 15:48:54,308 - INFO - Fuzzy API match for '1 Harpie's Feather Duster': 'Harpie's Feather Duster' (similarity: 0.95)
+2025-03-24 15:48:54,308 - INFO - Corrected: '1 Harpie's Feather Duster' -> 'Harpie's Feather Duster'
+2025-03-24 15:48:54,309 - INFO - Processing card 22/45: 3 Artifact Lancea
+2025-03-24 15:48:54,333 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Maliss%20P%20Dormouse
+2025-03-24 15:48:54,406 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Bystial%20Magnamhut
+2025-03-24 15:48:54,468 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Cal
+2025-03-24 15:48:54,475 - INFO - Fuzzy API match for '1 Called by the Grave': 'Called by the Grave' (similarity: 0.94)
+2025-03-24 15:48:54,475 - INFO - Corrected: '1 Called by the Grave' -> 'Called by the Grave'
+2025-03-24 15:48:54,476 - INFO - Processing card 23/45: 1 Ryzeal Detonator
+2025-03-24 15:48:54,527 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Lin
+2025-03-24 15:48:54,541 - INFO - Fuzzy API match for '1 Linguriboh': 'Linguriboh' (similarity: 0.89)
+2025-03-24 15:48:54,541 - INFO - Corrected: '1 Linguriboh' -> 'Linguriboh'
+2025-03-24 15:48:54,541 - INFO - Processing card 24/45: 2 Triple Tactics Thrust
+2025-03-24 15:48:54,711 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Lin
+2025-03-24 15:48:54,726 - INFO - Fuzzy API match for '1 Link Decoder': 'Link Decoder' (similarity: 0.90)
+2025-03-24 15:48:54,727 - INFO - Corrected: '1 Link Decoder' -> 'Link Decoder'
+2025-03-24 15:48:54,727 - INFO - Processing card 25/45: 3 Dominus Impulse
+2025-03-24 15:48:54,796 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Tri
+2025-03-24 15:48:54,796 - INFO - Fuzzy API match for '1 Triple Tactics Talent': 'Triple Tactics Talent' (similarity: 0.94)
+2025-03-24 15:48:54,797 - INFO - Corrected: '1 Triple Tactics Talent' -> 'Triple Tactics Talent'
+2025-03-24 15:48:54,797 - INFO - Processing card 26/45: 2 Solemn Strike
+2025-03-24 15:48:54,856 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Ryzeal%20Detonator
+2025-03-24 15:48:54,858 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Artifact%20Lancea
+2025-03-24 15:48:55,043 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Bys
+2025-03-24 15:48:55,045 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20S%3AP
+2025-03-24 15:48:55,046 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Triple%20Tactics%20Thrust
+2025-03-24 15:48:55,046 - INFO - Fuzzy API match for '1 Bystial Magnamhut': 'Bystial Magnamhut' (similarity: 0.93)
+2025-03-24 15:48:55,046 - INFO - Fuzzy API match for '1 S:P Little Knight': 'S:P Little Knight' (similarity: 0.93)
+2025-03-24 15:48:55,046 - INFO - Corrected: '1 Bystial Magnamhut' -> 'Bystial Magnamhut'
+2025-03-24 15:48:55,052 - INFO - Corrected: '1 S:P Little Knight' -> 'S:P Little Knight'
+2025-03-24 15:48:55,052 - INFO - Processing card 27/45: 3 Mulcharmy Fuwalos
+2025-03-24 15:48:55,053 - INFO - Processing card 28/45: 1 Maliss C TB-11
+2025-03-24 15:48:55,090 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Dominus%20Impulse
+2025-03-24 15:48:55,105 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mal
+2025-03-24 15:48:55,112 - INFO - Fuzzy API match for '3 Maliss P Dormouse': 'Maliss P Dormouse' (similarity: 0.93)
+2025-03-24 15:48:55,112 - INFO - Corrected: '3 Maliss P Dormouse' -> 'Maliss P Dormouse'
+2025-03-24 15:48:55,112 - INFO - Processing card 29/45: 1 Splash Mage
+2025-03-24 15:48:55,287 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Solemn%20Strike
+2025-03-24 15:48:55,326 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Mulcharmy%20Fuwalos
+2025-03-24 15:48:55,377 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Art
+2025-03-24 15:48:55,382 - INFO - Fuzzy API match for '3 Artifact Lancea': 'Artifact Lancea' (similarity: 0.92)
+2025-03-24 15:48:55,384 - INFO - Corrected: '3 Artifact Lancea' -> 'Artifact Lancea'
+2025-03-24 15:48:55,384 - INFO - Processing card 30/45: 1 Bystial Saronir
+2025-03-24 15:48:55,450 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Ryz
+2025-03-24 15:48:55,452 - INFO - Fuzzy API match for '1 Ryzeal Detonator': 'Ryzeal Detonator' (similarity: 0.93)
+2025-03-24 15:48:55,452 - INFO - Corrected: '1 Ryzeal Detonator' -> 'Ryzeal Detonator'
+2025-03-24 15:48:55,452 - INFO - Processing card 31/45: 3 Metaltronus
+2025-03-24 15:48:55,555 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20C%20TB-11
+2025-03-24 15:48:55,571 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Splash%20Mage
+2025-03-24 15:48:55,805 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Sol
+2025-03-24 15:48:55,815 - INFO - Fuzzy API match for '2 Solemn Strike': 'Solemn Strike' (similarity: 0.91)
+2025-03-24 15:48:55,815 - INFO - Corrected: '2 Solemn Strike' -> 'Solemn Strike'
+2025-03-24 15:48:55,816 - INFO - Processing card 32/45: 1 Knightmare Gryphon
+2025-03-24 15:48:55,886 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Tri
+2025-03-24 15:48:55,888 - INFO - Fuzzy API match for '2 Triple Tactics Thrust': 'Triple Tactics Thrust' (similarity: 0.94)
+2025-03-24 15:48:55,888 - INFO - Corrected: '2 Triple Tactics Thrust' -> 'Triple Tactics Thrust'
+2025-03-24 15:48:55,888 - INFO - Processing card 33/45: 1 Maliss Q Red Ransom
+2025-03-24 15:48:55,913 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Dom
+2025-03-24 15:48:55,918 - INFO - Fuzzy API match for '3 Dominus Impulse': 'Dominus Impulse' (similarity: 0.92)
+2025-03-24 15:48:55,919 - INFO - Corrected: '3 Dominus Impulse' -> 'Dominus Impulse'
+2025-03-24 15:48:55,919 - INFO - Processing card 34/45: 3 Maliss in Underground
+2025-03-24 15:48:55,973 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Metaltronus
+2025-03-24 15:48:56,066 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mul
+2025-03-24 15:48:56,067 - INFO - Fuzzy API match for '3 Mulcharmy Fuwalos': 'Mulcharmy Fuwalos' (similarity: 0.93)
+2025-03-24 15:48:56,067 - INFO - Corrected: '3 Mulcharmy Fuwalos' -> 'Mulcharmy Fuwalos'
+2025-03-24 15:48:56,067 - INFO - Processing card 35/45: 3 Maliss P White Rabbit
+2025-03-24 15:48:56,168 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Bystial%20Saronir
+2025-03-24 15:48:56,330 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Spl
+2025-03-24 15:48:56,331 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:48:56,337 - INFO - Fuzzy API match for '1 Splash Mage': 'Splash Mage' (similarity: 0.90)
+2025-03-24 15:48:56,338 - INFO - Corrected: '1 Splash Mage' -> 'Splash Mage'
+2025-03-24 15:48:56,343 - INFO - Processing card 36/45: 2 Bystial Baldrake
+2025-03-24 15:48:56,344 - INFO - Fuzzy API match for '1 Maliss C TB-11': 'Maliss C TB-11' (similarity: 0.92)
+2025-03-24 15:48:56,345 - INFO - Corrected: '1 Maliss C TB-11' -> 'Maliss C TB-11'
+2025-03-24 15:48:56,345 - INFO - Processing card 37/45: 1 Gold Sarcophagus
+2025-03-24 15:48:56,584 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Knightmare%20Gryphon
+2025-03-24 15:48:56,656 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20Q%20Red%20Ransom
+2025-03-24 15:48:56,660 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Maliss%20in%20Underground
+2025-03-24 15:48:56,763 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Met
+2025-03-24 15:48:56,763 - INFO - Fuzzy API match for '3 Metaltronus': 'Metaltronus' (similarity: 0.90)
+2025-03-24 15:48:56,764 - INFO - Corrected: '3 Metaltronus' -> 'Metaltronus'
+2025-03-24 15:48:56,764 - INFO - Processing card 38/45: 1 Dimensional Barrier
+2025-03-24 15:48:56,786 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Gold%20Sarcophagus
+2025-03-24 15:48:56,855 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Bystial%20Baldrake
+2025-03-24 15:48:57,095 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Kni
+2025-03-24 15:48:57,097 - INFO - Fuzzy API match for '1 Knightmare Gryphon': 'Knightmare Gryphon' (similarity: 0.93)
+2025-03-24 15:48:57,097 - INFO - Corrected: '1 Knightmare Gryphon' -> 'Knightmare Gryphon'
+2025-03-24 15:48:57,097 - INFO - Processing card 39/45: 1 Accesscode Talker
+2025-03-24 15:48:57,154 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Bys
+2025-03-24 15:48:57,155 - INFO - Fuzzy API match for '1 Bystial Saronir': 'Bystial Saronir' (similarity: 0.92)
+2025-03-24 15:48:57,155 - INFO - Corrected: '1 Bystial Saronir' -> 'Bystial Saronir'
+2025-03-24 15:48:57,155 - INFO - Processing card 40/45: 3 Dimension Shifter
+2025-03-24 15:48:57,343 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:48:57,351 - INFO - Fuzzy API match for '1 Maliss Q Red Ransom': 'Maliss Q Red Ransom' (similarity: 0.94)
+2025-03-24 15:48:57,351 - INFO - Corrected: '1 Maliss Q Red Ransom' -> 'Maliss Q Red Ransom'
+2025-03-24 15:48:57,351 - INFO - Processing card 41/45: 1 Super Starslayer TY-PHON - Sky Crisis
+2025-03-24 15:48:57,361 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Dimensional%20Barrier
+2025-03-24 15:48:57,370 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Maliss%20P%20White%20Rabbit
+2025-03-24 15:48:57,407 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mal
+2025-03-24 15:48:57,412 - INFO - Fuzzy API match for '3 Maliss in Underground': 'Maliss in Underground' (similarity: 0.94)
+2025-03-24 15:48:57,414 - INFO - Corrected: '3 Maliss in Underground' -> 'Maliss in Underground'
+2025-03-24 15:48:57,414 - INFO - Processing card 42/45: 3 Droll & Lock Bird
+2025-03-24 15:48:57,472 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Accesscode%20Talker
+2025-03-24 15:48:57,473 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Gol
+2025-03-24 15:48:57,480 - INFO - Fuzzy API match for '1 Gold Sarcophagus': 'Gold Sarcophagus' (similarity: 0.93)
+2025-03-24 15:48:57,481 - INFO - Corrected: '1 Gold Sarcophagus' -> 'Gold Sarcophagus'
+2025-03-24 15:48:57,481 - INFO - Processing card 43/45: 1 Maliss C MTP-07
+2025-03-24 15:48:57,663 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Bys
+2025-03-24 15:48:57,673 - INFO - Fuzzy API match for '2 Bystial Baldrake': 'Bystial Baldrake' (similarity: 0.93)
+2025-03-24 15:48:57,673 - INFO - Corrected: '2 Bystial Baldrake' -> 'Bystial Baldrake'
+2025-03-24 15:48:57,673 - INFO - Processing card 44/45: 1 Maliss Q White Binder
+2025-03-24 15:48:57,841 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Dim
+2025-03-24 15:48:57,849 - INFO - Fuzzy API match for '1 Dimensional Barrier': 'Dimensional Barrier' (similarity: 0.94)
+2025-03-24 15:48:57,849 - INFO - Corrected: '1 Dimensional Barrier' -> 'Dimensional Barrier'
+2025-03-24 15:48:57,850 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Dimension%20Shifter
+2025-03-24 15:48:57,850 - INFO - Processing card 45/45: 2 Maliss P Chessy Cat
+2025-03-24 15:48:57,909 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Mal
+2025-03-24 15:48:57,916 - INFO - Fuzzy API match for '3 Maliss P White Rabbit': 'Maliss P White Rabbit' (similarity: 0.94)
+2025-03-24 15:48:57,918 - INFO - Corrected: '3 Maliss P White Rabbit' -> 'Maliss P White Rabbit'
+2025-03-24 15:48:57,922 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Super%20Starslayer%20TY-PHON%20-%20Sky%20Crisis
+2025-03-24 15:48:57,938 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=3%20Droll%20%26%20Lock%20Bird
+2025-03-24 15:48:58,113 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20C%20MTP-07
+2025-03-24 15:48:58,160 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Acc
+2025-03-24 15:48:58,177 - INFO - Fuzzy API match for '1 Accesscode Talker': 'Accesscode Talker' (similarity: 0.93)
+2025-03-24 15:48:58,177 - INFO - Corrected: '1 Accesscode Talker' -> 'Accesscode Talker'
+2025-03-24 15:48:58,251 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=1%20Maliss%20Q%20White%20Binder
+2025-03-24 15:48:58,455 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=2%20Maliss%20P%20Chessy%20Cat
+2025-03-24 15:48:58,456 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Dro
+2025-03-24 15:48:58,466 - INFO - Fuzzy API match for '3 Droll & Lock Bird': 'Droll & Lock Bird' (similarity: 0.93)
+2025-03-24 15:48:58,467 - INFO - Corrected: '3 Droll & Lock Bird' -> 'Droll & Lock Bird'
+2025-03-24 15:48:58,591 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Sup
+2025-03-24 15:48:58,601 - INFO - Fuzzy API match for '1 Super Starslayer TY-PHON - Sky Crisis': 'Super Starslayer TY-PHON - Sky Crisis' (similarity: 0.97)
+2025-03-24 15:48:58,601 - INFO - Corrected: '1 Super Starslayer TY-PHON - Sky Crisis' -> 'Super Starslayer TY-PHON - Sky Crisis'
+2025-03-24 15:48:58,617 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:48:58,624 - INFO - Fuzzy API match for '1 Maliss C MTP-07': 'Maliss C MTP-07' (similarity: 0.92)
+2025-03-24 15:48:58,624 - INFO - Corrected: '1 Maliss C MTP-07' -> 'Maliss C MTP-07'
+2025-03-24 15:48:58,661 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=3%20Dim
+2025-03-24 15:48:58,699 - INFO - Fuzzy API match for '3 Dimension Shifter': 'Dimension Shifter' (similarity: 0.93)
+2025-03-24 15:48:58,700 - INFO - Corrected: '3 Dimension Shifter' -> 'Dimension Shifter'
+2025-03-24 15:48:58,952 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=1%20Mal
+2025-03-24 15:48:58,961 - INFO - Fuzzy API match for '1 Maliss Q White Binder': 'Maliss Q White Binder' (similarity: 0.94)
+2025-03-24 15:48:58,961 - INFO - Corrected: '1 Maliss Q White Binder' -> 'Maliss Q White Binder'
+2025-03-24 15:48:58,971 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=2%20Mal
+2025-03-24 15:48:58,972 - INFO - Fuzzy API match for '2 Maliss P Chessy Cat': 'Maliss P Chessy Cat' (similarity: 0.94)
+2025-03-24 15:48:58,972 - INFO - Corrected: '2 Maliss P Chessy Cat' -> 'Maliss P Chessy Cat'
+2025-03-24 15:48:58,973 - INFO - Database saved to: C:\Users\Xerod\AppData\Local\Temp\tmpy_h9du_3.txt
+2025-03-24 15:48:58,975 - INFO - 127.0.0.1 - - [24/Mar/2025 15:48:58] "[32mPOST /generate HTTP/1.1[0m" 302 -
+2025-03-24 15:49:19,413 - INFO - 127.0.0.1 - - [24/Mar/2025 15:49:19] "GET /example HTTP/1.1" 200 -
+2025-03-24 15:52:36,290 - INFO -  * Detected change in 'C:\\Users\\Xerod\\Desktop\\YGO Database Project\\yugioh_db_generator\\web\\web_ui.py', reloading
+2025-03-24 15:52:36,476 - INFO -  * Restarting with stat
+2025-03-24 15:52:36,856 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:53:30,679 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:56:48,253 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:56:48,276 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.176:5000
+2025-03-24 15:56:48,276 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 15:56:48,278 - INFO -  * Restarting with stat
+2025-03-24 15:56:48,553 - INFO - Using cache directory: C:\Users\Xerod\AppData\Local\Temp\yugioh_db_generator_web_cache
+2025-03-24 15:56:48,567 - WARNING -  * Debugger is active!
+2025-03-24 15:56:48,569 - INFO -  * Debugger PIN: 805-930-223
+2025-03-24 15:57:03,663 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:03] "GET / HTTP/1.1" 200 -
+2025-03-24 15:57:10,338 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:10] "GET /results HTTP/1.1" 200 -
+2025-03-24 15:57:16,694 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:16] "GET /example HTTP/1.1" 200 -
+2025-03-24 15:57:20,493 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:20] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:20,663 - INFO - Loaded 13611 cards into search engine
+2025-03-24 15:57:20,664 - WARNING - Error loading official rulings: [Errno 2] No such file or directory: 'konami_rulings.json'
+2025-03-24 15:57:20,664 - INFO - Generating database for 66 cards
+2025-03-24 15:57:20,664 - INFO - Processing cards using 4 threads
+2025-03-24 15:57:20,664 - INFO - Processing card 1/66: Snake-eye Flamberge Dragon
+2025-03-24 15:57:20,665 - INFO - Processing card 2/66: Snake-eye Diabellstar
+2025-03-24 15:57:20,666 - INFO - Processing card 3/66: Snake-eye Ash
+2025-03-24 15:57:20,666 - INFO - Processing card 4/66: Snake-eye Oak
+2025-03-24 15:57:20,949 - INFO - Found exact match for: Snake-eye Oak
+2025-03-24 15:57:20,949 - INFO - Processing card 5/66: Snake-eye Poplar
+2025-03-24 15:57:20,949 - INFO - Found exact match for: Snake-eye Ash
+2025-03-24 15:57:20,950 - INFO - Processing card 6/66: Snake-eye Birch
+2025-03-24 15:57:20,978 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Flamberge%20Dragon
+2025-03-24 15:57:21,155 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Diabellstar
+2025-03-24 15:57:21,192 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Poplar
+2025-03-24 15:57:21,207 - INFO - Found exact match for: Snake-eye Birch
+2025-03-24 15:57:21,207 - INFO - Processing card 7/66: Fabled Lurrie
+2025-03-24 15:57:21,480 - INFO - Found exact match for: Fabled Lurrie
+2025-03-24 15:57:21,480 - INFO - Processing card 8/66: Lacrima the Crimson Tear
+2025-03-24 15:57:21,480 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:21] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:21,661 - INFO - Fuzzy API match for 'Snake-eye Flamberge Dragon': 'Snake-Eyes Flamberge Dragon' (similarity: 0.98)
+2025-03-24 15:57:21,662 - INFO - Corrected: 'Snake-eye Flamberge Dragon' -> 'Snake-Eyes Flamberge Dragon'
+2025-03-24 15:57:21,662 - INFO - Processing card 9/66: Fiendsmith Engraver
+2025-03-24 15:57:21,686 - INFO - Fuzzy API match for 'Snake-eye Poplar': 'Snake-Eyes Poplar' (similarity: 0.96)
+2025-03-24 15:57:21,686 - INFO - Corrected: 'Snake-eye Poplar' -> 'Snake-Eyes Poplar'
+2025-03-24 15:57:21,686 - INFO - Processing card 10/66: Fiendsmith in Paradise
+2025-03-24 15:57:21,735 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Lacrima%20the%20Crimson%20Tear
+2025-03-24 15:57:21,736 - INFO - Fuzzy API match for 'Snake-eye Diabellstar': 'Snake-Eyes Diabellstar' (similarity: 0.97)
+2025-03-24 15:57:21,736 - INFO - Corrected: 'Snake-eye Diabellstar' -> 'Snake-Eyes Diabellstar'
+2025-03-24 15:57:21,737 - INFO - Processing card 11/66: Fiendsmith Kyrie
+2025-03-24 15:57:21,868 - INFO - Found exact match for: Fiendsmith Engraver
+2025-03-24 15:57:21,868 - INFO - Found exact match for: Fiendsmith in Paradise
+2025-03-24 15:57:21,868 - INFO - Processing card 12/66: Rainbow Dragon
+2025-03-24 15:57:21,869 - INFO - Processing card 13/66: Crystal Beast Rainbow Dragon
+2025-03-24 15:57:21,978 - INFO - Found exact match for: Fiendsmith Kyrie
+2025-03-24 15:57:21,978 - INFO - Processing card 14/66: Crystal Beast Sapphire Pegasus
+2025-03-24 15:57:22,075 - INFO - Found exact match for: Crystal Beast Rainbow Dragon
+2025-03-24 15:57:22,075 - INFO - Processing card 15/66: Crystal Beast Cobalt Eagle
+2025-03-24 15:57:22,075 - INFO - Found exact match for: Rainbow Dragon
+2025-03-24 15:57:22,076 - INFO - Processing card 16/66: Crystal Beast Ruby Carbuncle
+2025-03-24 15:57:22,182 - INFO - Fuzzy API match for 'Lacrima the Crimson Tear': 'Lacrima the Crimson Tears' (similarity: 0.97)
+2025-03-24 15:57:22,183 - INFO - Corrected: 'Lacrima the Crimson Tear' -> 'Lacrima the Crimson Tears'
+2025-03-24 15:57:22,183 - INFO - Processing card 17/66: Magicians' Soul
+2025-03-24 15:57:22,184 - INFO - Found exact match for: Crystal Beast Sapphire Pegasus
+2025-03-24 15:57:22,184 - INFO - Processing card 18/66: Illusion of Chaos
+2025-03-24 15:57:22,300 - INFO - Found exact match for: Crystal Beast Cobalt Eagle
+2025-03-24 15:57:22,300 - INFO - Processing card 19/66: Chaos Allure Queen
+2025-03-24 15:57:22,309 - INFO - Found exact match for: Crystal Beast Ruby Carbuncle
+2025-03-24 15:57:22,309 - INFO - Processing card 20/66: Allure Queen LV3
+2025-03-24 15:57:22,427 - INFO - Found exact match for: Illusion of Chaos
+2025-03-24 15:57:22,427 - INFO - Processing card 21/66: Allure Queen LV5
+2025-03-24 15:57:22,484 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:22] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:22,519 - INFO - Found exact match for: Allure Queen LV3
+2025-03-24 15:57:22,519 - INFO - Found exact match for: Chaos Allure Queen
+2025-03-24 15:57:22,520 - INFO - Processing card 22/66: World Legacy - "World Chalice"
+2025-03-24 15:57:22,520 - INFO - Processing card 23/66: Chosen by the World Chalice
+2025-03-24 15:57:22,646 - INFO - Found exact match for: Allure Queen LV5
+2025-03-24 15:57:22,646 - INFO - Processing card 24/66: Dragon Buster Destruction Sword
+2025-03-24 15:57:22,728 - INFO - Found exact match for: Chosen by the World Chalice
+2025-03-24 15:57:22,728 - INFO - Processing card 25/66: World Legacy - "World Shield"
+2025-03-24 15:57:22,786 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magicians%2527%20Soul
+2025-03-24 15:57:22,873 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Chalice%2522
+2025-03-24 15:57:22,874 - INFO - Found exact match for: Dragon Buster Destruction Sword
+2025-03-24 15:57:22,874 - INFO - Processing card 26/66: Dramatic Snake-eye Chase
+2025-03-24 15:57:23,062 - INFO - Found exact match for: Dramatic Snake-eye Chase
+2025-03-24 15:57:23,062 - INFO - Processing card 27/66: Divine Temple of the Snake-eyes
+2025-03-24 15:57:23,229 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=World%20Legacy%20-%20%2522World%20Shield%2522
+2025-03-24 15:57:23,353 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Divine%20Temple%20of%20the%20Snake-eyes
+2025-03-24 15:57:23,493 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:23] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:23,517 - INFO - Fuzzy API match for 'Magicians' Soul': 'Magicians' Souls' (similarity: 0.96)
+2025-03-24 15:57:23,518 - INFO - Corrected: 'Magicians' Soul' -> 'Magicians' Souls'
+2025-03-24 15:57:23,518 - INFO - Processing card 28/66: One for One
+2025-03-24 15:57:23,559 - INFO - Fuzzy API match for 'World Legacy - "World Chalice"': 'World Legacy - "World Chalice"' (similarity: 1.00)
+2025-03-24 15:57:23,560 - INFO - Processing card 29/66: Fiendsmith Tract
+2025-03-24 15:57:23,670 - INFO - Fuzzy API match for 'World Legacy - "World Shield"': 'World Legacy - "World Shield"' (similarity: 1.00)
+2025-03-24 15:57:23,671 - INFO - Processing card 30/66: Rainbow Bridge
+2025-03-24 15:57:23,744 - INFO - Found exact match for: One for One
+2025-03-24 15:57:23,744 - INFO - Processing card 31/66: Crystal Bond
+2025-03-24 15:57:23,767 - INFO - Fuzzy API match for 'Divine Temple of the Snake-eyes': 'Divine Temple of the Snake-Eye' (similarity: 0.98)
+2025-03-24 15:57:23,768 - INFO - Corrected: 'Divine Temple of the Snake-eyes' -> 'Divine Temple of the Snake-Eye'
+2025-03-24 15:57:23,769 - INFO - Processing card 32/66: Golden Rule
+2025-03-24 15:57:23,822 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Tract
+2025-03-24 15:57:23,863 - INFO - Found exact match for: Rainbow Bridge
+2025-03-24 15:57:23,864 - INFO - Processing card 33/66: Awakening of the Crystal Ultimates
+2025-03-24 15:57:23,977 - INFO - Found exact match for: Golden Rule
+2025-03-24 15:57:23,979 - INFO - Processing card 34/66: Rainbow Bridge of the Heart
+2025-03-24 15:57:23,979 - INFO - Found exact match for: Crystal Bond
+2025-03-24 15:57:23,980 - INFO - Processing card 35/66: Foolish Burial Goods
+2025-03-24 15:57:24,068 - INFO - Found exact match for: Awakening of the Crystal Ultimates
+2025-03-24 15:57:24,068 - INFO - Processing card 36/66: Called by the Grave
+2025-03-24 15:57:24,170 - INFO - Found exact match for: Foolish Burial Goods
+2025-03-24 15:57:24,170 - INFO - Processing card 37/66: Triple Tactics Thrust
+2025-03-24 15:57:24,179 - INFO - Found exact match for: Rainbow Bridge of the Heart
+2025-03-24 15:57:24,179 - INFO - Processing card 38/66: Triple Tactics Talents
+2025-03-24 15:57:24,293 - INFO - Found exact match for: Called by the Grave
+2025-03-24 15:57:24,294 - INFO - Fuzzy API match for 'Fiendsmith Tract': 'Fiendsmith's Tract' (similarity: 0.93)
+2025-03-24 15:57:24,294 - INFO - Processing card 39/66: Vaylantz World - Shinra Bansho
+2025-03-24 15:57:24,295 - INFO - Corrected: 'Fiendsmith Tract' -> 'Fiendsmith's Tract'
+2025-03-24 15:57:24,295 - INFO - Processing card 40/66: Vaylantz World - Konig Wissen
+2025-03-24 15:57:24,419 - INFO - Found exact match for: Triple Tactics Thrust
+2025-03-24 15:57:24,419 - INFO - Processing card 41/66: World Legacy Succession
+2025-03-24 15:57:24,484 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:24] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:24,528 - INFO - Found exact match for: Vaylantz World - Konig Wissen
+2025-03-24 15:57:24,529 - INFO - Processing card 42/66: Rainbow Bridge of Salvation
+2025-03-24 15:57:24,529 - INFO - Found exact match for: Vaylantz World - Shinra Bansho
+2025-03-24 15:57:24,529 - INFO - Processing card 43/66: Harpies' Feather Storm
+2025-03-24 15:57:24,624 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Triple%20Tactics%20Talents
+2025-03-24 15:57:24,624 - INFO - Found exact match for: World Legacy Succession
+2025-03-24 15:57:24,625 - INFO - Processing card 44/66: Infinite Impermanence
+2025-03-24 15:57:24,745 - INFO - Found exact match for: Rainbow Bridge of Salvation
+2025-03-24 15:57:24,745 - INFO - Processing card 45/66: Protector Whelp of the Destruction Swordsman
+2025-03-24 15:57:24,831 - INFO - Found exact match for: Infinite Impermanence
+2025-03-24 15:57:24,832 - INFO - Processing card 46/66: Magisitus Chorozo
+2025-03-24 15:57:24,887 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Harpies%2527%20Feather%20Storm
+2025-03-24 15:57:24,933 - INFO - Found exact match for: Protector Whelp of the Destruction Swordsman
+2025-03-24 15:57:24,934 - INFO - Processing card 47/66: Necroquip Princess
+2025-03-24 15:57:25,068 - INFO - Fuzzy API match for 'Triple Tactics Talents': 'Triple Tactics Talent' (similarity: 0.97)
+2025-03-24 15:57:25,068 - INFO - Corrected: 'Triple Tactics Talents' -> 'Triple Tactics Talent'
+2025-03-24 15:57:25,068 - INFO - Processing card 48/66: Snake-eye Doomed Dragon
+2025-03-24 15:57:25,188 - INFO - Found exact match for: Necroquip Princess
+2025-03-24 15:57:25,188 - INFO - Processing card 49/66: Gallant Granite
+2025-03-24 15:57:25,290 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Magisitus%20Chorozo
+2025-03-24 15:57:25,359 - INFO - Found exact match for: Gallant Granite
+2025-03-24 15:57:25,359 - INFO - Processing card 50/66: Infernal Flame Banshee
+2025-03-24 15:57:25,383 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Snake-eye%20Doomed%20Dragon
+2025-03-24 15:57:25,485 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:25] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:25,506 - INFO - Fuzzy API match for 'Harpies' Feather Storm': 'Harpie's Feather Storm' (similarity: 0.94)
+2025-03-24 15:57:25,508 - INFO - Corrected: 'Harpies' Feather Storm' -> 'Harpie's Feather Storm'
+2025-03-24 15:57:25,508 - INFO - Processing card 51/66: D/D/D Wave High King Caesar
+2025-03-24 15:57:25,589 - INFO - Found exact match for: Infernal Flame Banshee
+2025-03-24 15:57:25,589 - INFO - Processing card 52/66: Moon of the Closed Heaven
+2025-03-24 15:57:25,622 - INFO - Fuzzy API match for 'Snake-eye Doomed Dragon': 'Snake-Eyes Doomed Dragon' (similarity: 0.97)
+2025-03-24 15:57:25,622 - INFO - Corrected: 'Snake-eye Doomed Dragon' -> 'Snake-Eyes Doomed Dragon'
+2025-03-24 15:57:25,623 - INFO - Processing card 53/66: Mekk-Knight Crusadia Avramax
+2025-03-24 15:57:25,709 - INFO - Found exact match for: D/D/D Wave High King Caesar
+2025-03-24 15:57:25,710 - INFO - Processing card 54/66: I:P Masquerena
+2025-03-24 15:57:25,800 - INFO - Found exact match for: Mekk-Knight Crusadia Avramax
+2025-03-24 15:57:25,800 - INFO - Processing card 55/66: Relinquished Anima
+2025-03-24 15:57:25,827 - INFO - Found exact match for: Moon of the Closed Heaven
+2025-03-24 15:57:25,827 - INFO - Processing card 56/66: Knightmare Gryphon
+2025-03-24 15:57:25,913 - INFO - Found exact match for: I:P Masquerena
+2025-03-24 15:57:25,913 - INFO - Processing card 57/66: A Bao A Qu, The Lightless Shadow
+2025-03-24 15:57:25,997 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=Magisitus
+2025-03-24 15:57:25,998 - INFO - Fuzzy API match for 'Magisitus Chorozo': 'Magistus Chorozo' (similarity: 0.96)
+2025-03-24 15:57:25,998 - INFO - Corrected: 'Magisitus Chorozo' -> 'Magistus Chorozo'
+2025-03-24 15:57:25,998 - INFO - Processing card 58/66: Cross-Sheep
+2025-03-24 15:57:26,033 - INFO - Found exact match for: Relinquished Anima
+2025-03-24 15:57:26,033 - INFO - Processing card 59/66: Fiendsmith Requiem
+2025-03-24 15:57:26,044 - INFO - Found exact match for: Knightmare Gryphon
+2025-03-24 15:57:26,044 - INFO - Processing card 60/66: Fiendsmith Agnumday
+2025-03-24 15:57:26,143 - INFO - Found exact match for: A Bao A Qu, The Lightless Shadow
+2025-03-24 15:57:26,145 - INFO - Processing card 61/66: Fiendsmith Sequence
+2025-03-24 15:57:26,145 - INFO - Found exact match for: Cross-Sheep
+2025-03-24 15:57:26,145 - INFO - Processing card 62/66: Fiendsmith Desirae
+2025-03-24 15:57:26,280 - INFO - Found exact match for: Fiendsmith Requiem
+2025-03-24 15:57:26,280 - INFO - Processing card 63/66: Ib the World Chalice Justiciar
+2025-03-24 15:57:26,476 - INFO - Found exact match for: Ib the World Chalice Justiciar
+2025-03-24 15:57:26,476 - INFO - Processing card 64/66: Rciela Sinister Soul of the White Forest
+2025-03-24 15:57:26,484 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:26] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:26,486 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Agnumday
+2025-03-24 15:57:26,522 - INFO - Fuzzy API match for 'Fiendsmith Agnumday': 'Fiendsmith's Agnumday' (similarity: 0.94)
+2025-03-24 15:57:26,522 - INFO - Corrected: 'Fiendsmith Agnumday' -> 'Fiendsmith's Agnumday'
+2025-03-24 15:57:26,523 - INFO - Processing card 65/66: Power Tool Dragon
+2025-03-24 15:57:26,596 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Desirae
+2025-03-24 15:57:26,607 - INFO - Fuzzy API match for 'Fiendsmith Desirae': 'Fiendsmith's Desirae' (similarity: 0.93)
+2025-03-24 15:57:26,607 - INFO - Corrected: 'Fiendsmith Desirae' -> 'Fiendsmith's Desirae'
+2025-03-24 15:57:26,607 - INFO - Processing card 66/66: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-24 15:57:26,625 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Fiendsmith%20Sequence
+2025-03-24 15:57:26,636 - INFO - Fuzzy API match for 'Fiendsmith Sequence': 'Fiendsmith's Sequence' (similarity: 0.94)
+2025-03-24 15:57:26,636 - INFO - Corrected: 'Fiendsmith Sequence' -> 'Fiendsmith's Sequence'
+2025-03-24 15:57:26,713 - INFO - Found exact match for: Power Tool Dragon
+2025-03-24 15:57:26,816 - INFO - Found exact match for: Cherubini, Ebon Angel of the Burning Abyss
+2025-03-24 15:57:27,129 - WARNING - API request failed: 400 Client Error: Bad Request for url: https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Rciela%20Sinister%20Soul%20of%20the%20White%20Forest
+2025-03-24 15:57:27,485 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:27] "GET /progress HTTP/1.1" 200 -
+2025-03-24 15:57:27,662 - INFO - Fuzzy API match for 'Rciela Sinister Soul of the White Forest': 'Rciela, Sinister Soul of the White Forest' (similarity: 0.98)
+2025-03-24 15:57:27,664 - INFO - Corrected: 'Rciela Sinister Soul of the White Forest' -> 'Rciela, Sinister Soul of the White Forest'
+2025-03-24 15:57:27,664 - INFO - Database saved to: C:\Users\Xerod\AppData\Local\Temp\tmporr3k14l.md
+2025-03-24 15:57:27,665 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:27] "[32mPOST /generate HTTP/1.1[0m" 302 -
+2025-03-24 15:57:27,672 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:27] "GET /results HTTP/1.1" 200 -
+2025-03-24 15:57:37,993 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:37] "GET / HTTP/1.1" 200 -
+2025-03-24 15:57:40,046 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:40] "GET /results HTTP/1.1" 200 -
+2025-03-24 15:57:42,401 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:42] "GET / HTTP/1.1" 200 -
+2025-03-24 15:57:43,422 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:43] "GET /results HTTP/1.1" 200 -
+2025-03-24 15:57:47,668 - INFO - 127.0.0.1 - - [24/Mar/2025 15:57:47] "GET / HTTP/1.1" 200 -

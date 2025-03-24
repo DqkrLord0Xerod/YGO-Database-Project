@@ -290,6 +290,10 @@ def progress():
     """Return the current progress as JSON."""
     return jsonify(current_progress)
 
+@app.route('/analyzer')
+def deck_analyzer():  # Changed function name from analyzer to deck_analyzer
+    """Show the deck analyzer page."""
+    return render_template('analyzer.html')
 
 @app.route('/results')
 def results():
