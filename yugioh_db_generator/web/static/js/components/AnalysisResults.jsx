@@ -46,8 +46,8 @@ const AnalysisResults = ({ analysis }) => {
                             <div className="stat-card">
                                 <div className="stat-icon">
                                     {type.includes('monster') ? '👹' : 
-                                     type.includes('spell') ? '📜' : 
-                                     type.includes('trap') ? '⚡' : '🎴'}
+                                    type.includes('spell') ? '📜' : 
+                                    type.includes('trap') ? '⚡' : '🎴'}
                                 </div>
                                 <div>
                                     <div className="text-muted">{type.replace('_', ' ').toUpperCase()}</div>
